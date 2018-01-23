@@ -1,0 +1,178 @@
+2018-01-22 11:16:15,280 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 11:16:18,868 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 11:16:19,990 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 11:16:20,000 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 11:16:24,974 - BasePage - INFO - 开始回放脚本组织管理
+2018-01-22 11:16:25,039 - BasePage - INFO - 行号：1,内容:['wait','','','1000','','']
+2018-01-22 11:16:26,039 - BasePage - INFO - 行号：2,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 11:16:26,381 - BasePage - INFO - 行号：3,内容:['click','xpath','//*[@id='header']//span[text()='组织管理']','','','组织管理']
+2018-01-22 11:16:26,667 - BasePage - INFO - 行号：4,内容:['wait','','','1000','','']
+2018-01-22 11:16:27,667 - BasePage - INFO - 行号：5,内容:['click','xpath','//*[@id='content']//div[@class='btn-icons add-org-treeBtn']','','','增加组织']
+2018-01-22 11:16:27,818 - BasePage - INFO - 行号：6,内容:['input','xpath','//*[@id='first-corp-input'] ','FunctionAutoOrg','','编码']
+2018-01-22 11:16:28,033 - BasePage - INFO - 行号：7,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入名称']','功能自动化勿用','','名称']
+2018-01-22 11:16:28,207 - BasePage - INFO - 行号：8,内容:['input','xpath','//div[@class='page-views top-padding']/div[3]/div/div[5]/div[2]/input','13143533454','','电话']
+2018-01-22 11:16:28,374 - BasePage - INFO - 行号：9,内容:['input','xpath','//div[@class='page-views top-padding']/div[3]/div/div[6]/div[2]/input','周毅','','联系人']
+2018-01-22 11:16:28,493 - BasePage - INFO - 行号：10,内容:['input','xpath','//*[@id='nsrsbh']','111222333123999','','纳税人识别号']
+2018-01-22 11:16:28,670 - BasePage - INFO - 行号：11,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入纳税人名称']','Auto.01','','纳税人名称']
+2018-01-22 11:16:28,937 - BasePage - INFO - 行号：12,内容:['input','xpath','//*[@id='views-container']//input[@data-bind='value: oldNsrsbh']','111222333123124','','曾用纳税人识别号']
+2018-01-22 11:16:29,122 - BasePage - INFO - 行号：13,内容:['input','xpath','//*[@id='views-container']//input[@data-bind='value: oldNsrmc']','Auto.00','','曾用纳税人名称']
+2018-01-22 11:16:29,280 - BasePage - INFO - 行号：14,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入地址']','北京市北京经济技术开发区科创十四街99号','','地址']
+2018-01-22 11:16:29,473 - BasePage - INFO - 行号：15,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入电话号码']','010-56754031','','电话号码']
+2018-01-22 11:16:29,638 - BasePage - INFO - 行号：16,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入开户行名称']','中国建设银行','','开户行名称']
+2018-01-22 11:16:29,769 - BasePage - INFO - 行号：17,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入开户行账号']','6212261009111300000','','开户行账号']
+2018-01-22 11:16:29,953 - BasePage - INFO - 行号：18,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 11:16:30,061 - BasePage - INFO - 行号：19,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 11:16:31,301 - BasePage - INFO - 行号：20,内容:['','','组织管理-基本信息增加复选项：机关、事业单位。
+1. 如果选中：则纳税人识别号不必填；
+2. 如果纳税人识别号为空，不允许勾选开票组织；
+3. 如果纳税人识别号为空，报销提交发票到报销/采购台账时，不校验税号必填；如果有纳税人识别号，仍然校验税号一致。','','*','']
+2018-01-22 11:16:31,302 - BasePage - INFO - 行号：21,内容:['click','cssSelector','label.label-checked','','','勾选机关、事业单位']
+2018-01-22 11:16:31,421 - BasePage - INFO - 行号：22,内容:['input','xpath','//*[@id='nsrsbh']','','','清空纳税人识别号']
+2018-01-22 11:16:31,529 - BasePage - INFO - 行号：23,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 11:16:31,605 - BasePage - INFO - 行号：24,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功','','']
+2018-01-22 11:16:32,036 - BasePage - ERROR - 断言失败，检查点元素不存在，请检查定位方式或定位值，详细信息：Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=63.0.3239.108)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'UF201502001', ip: '192.168.239.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1412_13532}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.108, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a233032ffea063c0645332ab4b5a4609
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebElement.execute (RemoteWebElement.java:274)
+    at org.openqa.selenium.remote.RemoteWebElement.getText (RemoteWebElement.java:158)
+    at sun.reflect.GeneratedMethodAccessor25.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke (EventFiringWebDriver.java:332)
+    at com.sun.proxy.$Proxy7.getText (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText (EventFiringWebDriver.java:382)
+    at sun.reflect.GeneratedMethodAccessor25.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.remote.server.KnownElements$1.invoke (KnownElements.java:64)
+    at com.sun.proxy.$Proxy8.getText (None:-1)
+    at org.openqa.selenium.remote.server.handler.GetElementText.call (GetElementText.java:30)
+    at org.openqa.selenium.remote.server.handler.GetElementText.call (GetElementText.java:22)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 11:16:32,039 - BasePage - INFO - 行号：25,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','勾选开票']
+2018-01-22 11:16:32,188 - BasePage - INFO - 行号：26,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','请输入纳税人识别号','','']
+2018-01-22 11:16:33,326 - BasePage - INFO - 行号：27,内容:['input','xpath','//*[@id='nsrsbh']','111222333123999','','输入纳税人识别号']
+2018-01-22 11:16:33,555 - BasePage - INFO - 行号：28,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','勾选开票']
+2018-01-22 11:16:33,704 - BasePage - INFO - 行号：29,内容:['wait','','','1000','','']
+2018-01-22 11:16:34,704 - BasePage - INFO - 行号：30,内容:['checkpoint','cssSelector','#nsrsbhEditTypeModal > div > div','','','税号修改提示框弹出']
+2018-01-22 11:16:34,783 - BasePage - INFO - 行号：31,内容:['click','cssSelector','#checkCode_01+label','','','企业税号变更']
+2018-01-22 11:16:34,901 - BasePage - INFO - 行号：32,内容:['click','cssSelector','#checkCode_02+label','','','组织税号变更']
+2018-01-22 11:16:35,006 - BasePage - INFO - 行号：33,内容:['click','xpath','//div[@id='nsrsbhEditTypeModal']//span[@class='button default']','','','确定']
+2018-01-22 11:16:35,105 - BasePage - INFO - 行号：34,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','勾选开票']
+2018-01-22 11:16:36,625 - BasePage - INFO - 行号：35,内容:['','','完成机关事业单位的1、2条需求','','*','']
+2018-01-22 11:16:36,625 - BasePage - INFO - 行号：36,内容:['input','xpath','//*[@id='make-invoice-show']/div[1]/div[1]/div[2]/input','张力和','','开票人']
+2018-01-22 11:16:36,750 - BasePage - INFO - 行号：37,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[2]/div[2]/input','梅兹','','复核人']
+2018-01-22 11:16:36,871 - BasePage - INFO - 行号：38,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[3]/div[2]/input','唐钰','','收款人']
+2018-01-22 11:16:36,987 - BasePage - INFO - 行号：39,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备1']
+2018-01-22 11:16:37,128 - BasePage - INFO - 行号：40,内容:['wait','','','1000','','']
+2018-01-22 11:16:38,128 - BasePage - INFO - 行号：41,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请填写税控设备编号']','Auto001','','选择或填写税控编号']
+2018-01-22 11:16:38,388 - BasePage - INFO - 行号：42,内容:['input','xpath','//*[@id='taxMechModal']//input[@data-bind='value: taxMechName']','Auto百旺3.0','','税控设备名称']
+2018-01-22 11:16:38,536 - BasePage - INFO - 行号：43,内容:['click','xpath','//*[@id='select2-taxSoftVersion-container']','','','点击选择税控版本']
+2018-01-22 11:16:38,638 - BasePage - INFO - 行号：44,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[1]','','*','选择航信']
+2018-01-22 11:16:38,638 - BasePage - INFO - 行号：45,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[2]','','','选择百旺']
+2018-01-22 11:16:38,742 - BasePage - INFO - 行号：46,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请输入发票开具限额']','10000','','开具限额']
+2018-01-22 11:16:38,877 - BasePage - INFO - 行号：47,内容:['click','xpath','//*[@id='select2-taxBmbBbh-container']','','','选择编码版本号']
+2018-01-22 11:16:38,976 - BasePage - INFO - 行号：48,内容:['click','xpath','//*[@id='select2-taxBmbBbh-results']/li','','','13']
+2018-01-22 11:16:39,088 - BasePage - INFO - 行号：49,内容:['click','xpath','//*[@id='select2-taxMechType-container']','','','选择发票种类']
+2018-01-22 11:16:39,183 - BasePage - INFO - 行号：50,内容:['click','xpath','//*[@id='select2-taxMechType-results']/li[1]','','','增值税电子普通发票']
+2018-01-22 11:16:39,275 - BasePage - INFO - 行号：51,内容:['click','xpath','//*[@id='taxMechModal']//span[text()='保存']','','','保存添加税控设备']
+2018-01-22 11:16:39,378 - BasePage - INFO - 行号：52,内容:['wait','','','1000','','']
+2018-01-22 11:16:40,380 - BasePage - INFO - 行号：53,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备2']
+2018-01-22 11:16:40,535 - BasePage - INFO - 行号：54,内容:['wait','','','1000','','']
+2018-01-22 11:16:41,536 - BasePage - INFO - 行号：55,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请填写税控设备编号']','Auto002','','选择或填写税控编号']
+2018-01-22 11:16:41,736 - BasePage - INFO - 行号：56,内容:['input','xpath','//*[@id='taxMechModal']//input[@data-bind='value: taxMechName']','Auto百旺3.0','','税控设备名称']
+2018-01-22 11:16:41,881 - BasePage - INFO - 行号：57,内容:['click','xpath','//*[@id='select2-taxSoftVersion-container']','','','点击选择税控版本']
+2018-01-22 11:16:41,983 - BasePage - INFO - 行号：58,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[1]','','*','选择航信']
+2018-01-22 11:16:41,983 - BasePage - INFO - 行号：59,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[2]','','','选择百旺']
+2018-01-22 11:16:42,092 - BasePage - INFO - 行号：60,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请输入发票开具限额']','1000','','开具限额']
+2018-01-22 11:16:42,193 - BasePage - INFO - 行号：61,内容:['click','xpath','//*[@id='select2-taxBmbBbh-container']','','','选择编码版本号']
+2018-01-22 11:16:42,286 - BasePage - INFO - 行号：62,内容:['click','xpath','//*[@id='select2-taxBmbBbh-results']/li','','','13']
+2018-01-22 11:16:42,391 - BasePage - INFO - 行号：63,内容:['click','xpath','//*[@id='select2-taxMechType-container']','','','选择发票种类']
+2018-01-22 11:16:42,490 - BasePage - INFO - 行号：64,内容:['click','xpath','//*[@id='select2-taxMechType-results']/li[2]','','','增值税普通发票']
+2018-01-22 11:16:42,588 - BasePage - INFO - 行号：65,内容:['click','xpath','//*[@id='taxMechModal']//span[text()='保存']','','','保存添加税控设备']
+2018-01-22 11:16:42,676 - BasePage - INFO - 行号：66,内容:['wait','','','1000','','']
+2018-01-22 11:16:43,677 - BasePage - INFO - 行号：67,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备3']
+2018-01-22 11:16:43,812 - BasePage - INFO - 行号：68,内容:['wait','','','1000','','']
+2018-01-22 11:16:44,812 - BasePage - INFO - 行号：69,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请填写税控设备编号']','Auto003','','选择或填写税控编号']
+2018-01-22 11:16:45,019 - BasePage - INFO - 行号：70,内容:['input','xpath','//*[@id='taxMechModal']//input[@data-bind='value: taxMechName']','Auto百旺3.0','','税控设备名称']
+2018-01-22 11:16:45,148 - BasePage - INFO - 行号：71,内容:['click','xpath','//*[@id='select2-taxSoftVersion-container']','','','点击选择税控版本']
+2018-01-22 11:16:45,242 - BasePage - INFO - 行号：72,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[1]','','*','选择航信']
+2018-01-22 11:16:45,243 - BasePage - INFO - 行号：73,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[2]','','','选择百旺']
+2018-01-22 11:16:45,342 - BasePage - INFO - 行号：74,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请输入发票开具限额']','1000','','开具限额']
+2018-01-22 11:16:45,436 - BasePage - INFO - 行号：75,内容:['click','xpath','//*[@id='select2-taxBmbBbh-container']','','','选择编码版本号']
+2018-01-22 11:16:45,526 - BasePage - INFO - 行号：76,内容:['click','xpath','//*[@id='select2-taxBmbBbh-results']/li','','','13']
+2018-01-22 11:16:45,644 - BasePage - INFO - 行号：77,内容:['click','xpath','//*[@id='select2-taxMechType-container']','','','选择发票种类']
+2018-01-22 11:16:45,739 - BasePage - INFO - 行号：78,内容:['click','xpath','//*[@id='select2-taxMechType-results']/li[3]','','','增值税专用发票']
+2018-01-22 11:16:45,829 - BasePage - INFO - 行号：79,内容:['click','xpath','//*[@id='taxMechModal']//span[text()='保存']','','','保存添加税控设备']
+2018-01-22 11:16:45,914 - BasePage - INFO - 行号：80,内容:['wait','','','1000','','']
+2018-01-22 11:16:46,915 - BasePage - INFO - 行号：81,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备4']
+2018-01-22 11:16:47,056 - BasePage - INFO - 行号：82,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','发票种类已添加完整','','']
+2018-01-22 11:16:48,200 - BasePage - INFO - 行号：83,内容:['click','xpath','//*[@id='views-container']//label[@for='drawee-invoice']','','','勾选受票']
+2018-01-22 11:16:48,312 - BasePage - INFO - 行号：84,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 11:16:48,427 - BasePage - INFO - 行号：85,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功','','']
+2018-01-22 11:16:49,535 - BasePage - INFO - 行号：86,内容:['','','','','*','查询组织']
+2018-01-22 11:16:49,535 - BasePage - INFO - 行号：87,内容:['input','xpath','//*[@id='keywords']','FunctionAutoOrg','','输入组织编码查询关键字']
+2018-01-22 11:16:49,713 - BasePage - INFO - 行号：88,内容:['click','xpath','//*[@id='content']//div[@class='search-icon']','','','点击搜索图标']
+2018-01-22 11:16:49,802 - BasePage - INFO - 行号：89,内容:['checkpoint','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','']
+2018-01-22 11:16:49,846 - BasePage - INFO - 行号：90,内容:['click','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','修改组织信息']
+2018-01-22 11:16:49,960 - BasePage - INFO - 行号：91,内容:['','','组织管理-基本信息增加复选项：机关、事业单位。
+1. 如果选中：则纳税人识别号不必填；
+2. 如果纳税人识别号为空，不允许勾选开票组织；
+3. 如果纳税人识别号为空，报销提交发票到报销/采购台账时，不校验税号必填；如果有纳税人识别号，仍然校验税号一致。','','*','']
+2018-01-22 11:16:49,960 - BasePage - INFO - 行号：92,内容:['click','cssSelector','label.label-checked','','','取消勾选机关、事业单位']
+2018-01-22 11:16:51,611 - BasePage - INFO - 行号：93,内容:['input','xpath','//*[@id='nsrsbh']','','','清空纳税人识别号']
+2018-01-22 11:16:51,746 - BasePage - INFO - 行号：94,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','取消勾选开票']
+2018-01-22 11:16:51,864 - BasePage - INFO - 行号：95,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','业务信息组织属性不可修改','','']
+2018-01-22 11:16:53,003 - BasePage - INFO - 行号：96,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 11:16:53,153 - BasePage - INFO - 行号：97,内容:['checkpoint','cssSelector','#nsrsbh+span','请输入税号','','']
+2018-01-22 11:16:53,282 - BasePage - INFO - 行号：98,内容:['input','xpath','//*[@id='nsrsbh']','111222333123999','','输入纳税人识别号']
+2018-01-22 11:16:53,430 - BasePage - INFO - 行号：99,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 11:16:53,506 - BasePage - INFO - 行号：100,内容:['wait','','','1000','','']
+2018-01-22 11:16:54,506 - BasePage - INFO - 行号：101,内容:['click','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','修改组织信息']
+2018-01-22 11:16:54,640 - BasePage - INFO - 行号：102,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 11:16:55,773 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 11:16:55,773 - BasePage - INFO - 行号：103,内容:['input','xpath','//div[@class='page-views top-padding']/div[3]/div/div[5]/div[2]/input','13143530000','','电话']
+2018-01-22 11:16:55,966 - BasePage - INFO - 行号：104,内容:['input','xpath','//*[@id='make-invoice-show']/div[1]/div[1]/div[2]/input','王小九','','开票人']
+2018-01-22 11:16:56,099 - BasePage - INFO - 行号：105,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[2]/div[2]/input','赵小九','','复核人']
+2018-01-22 11:16:56,259 - BasePage - INFO - 行号：106,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[3]/div[2]/input','钱小九','','收款人']
+2018-01-22 11:16:56,394 - BasePage - INFO - 行号：107,内容:['click','xpath','//*[@id='views-container']//img[@alt='预约二维码生成']','','','预约二维码']
+2018-01-22 11:16:56,496 - BasePage - INFO - 行号：108,内容:['click','xpath','//*[@id='readyQrModal']//span[@class='button light']','','','取消']
+2018-01-22 11:16:57,749 - BasePage - INFO - 行号：109,内容:['click','xpath','//*[@id='views-container']//img[@alt='预约二维码生成']','','','预约二维码']
+2018-01-22 11:16:59,286 - BasePage - INFO - 行号：110,内容:['click','xpath','//*[@id='readyQrModal']//span[@class='button default']','','','下载']
+2018-01-22 11:17:01,055 - BasePage - INFO - 行号：111,内容:['click','xpath','//*[@id='readyQrModal']//button[@class='close']','','','关闭']
+2018-01-22 11:17:01,186 - BasePage - INFO - 行号：112,内容:['click','xpath','//*[@id='views-container']//img[@alt='邀请加入二维码']','','','邀请加入二维码']
+2018-01-22 11:17:02,857 - BasePage - INFO - 行号：113,内容:['click','xpath','//*[@id='inviteModal']//span[@data-dismiss='modal']','','','取消']
+2018-01-22 11:17:03,563 - BasePage - INFO - 行号：114,内容:['click','xpath','//*[@id='views-container']//img[@alt='邀请加入二维码']','','','邀请二维码']
+2018-01-22 11:17:05,118 - BasePage - INFO - 行号：115,内容:['click','xpath','//*[@id="join-download-Qr"]','','','下载']
+2018-01-22 11:17:05,845 - BasePage - INFO - 行号：116,内容:['click','xpath','//*[@id='inviteModal']//button[@class='close']','','','关闭']
+2018-01-22 11:17:05,947 - BasePage - INFO - 行号：117,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 11:17:07,698 - BasePage - INFO - 行号：118,内容:['click','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','删除组织信息']
+2018-01-22 11:17:07,917 - BasePage - INFO - 行号：119,内容:['click','xpath','//*[@id='content']//div[@class='btn-icons del-org-treeBtn']','','','']
+2018-01-22 11:17:08,091 - BasePage - INFO - 行号：120,内容:['click','xpath','//button[@data-bb-handler='cancel']','','','取消']
+2018-01-22 11:17:08,779 - BasePage - INFO - 行号：121,内容:['click','xpath','//*[@id='content']//div[@class='btn-icons del-org-treeBtn']','','','']
+2018-01-22 11:17:10,368 - BasePage - INFO - 行号：122,内容:['click','xpath','//button[@data-bb-handler='confirm']','','','确定删除']
+2018-01-22 11:17:11,115 - BasePage - INFO - 行号：123,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','删除组织成功','','']
+2018-01-22 11:17:12,865 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 11:17:12,865 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 11:17:12,865 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 11:17:12,867 - BasePage - INFO - 结束回放脚本组织管理

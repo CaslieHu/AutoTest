@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7904d23e-90a8-42da-ba60-2741393e3168" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testdemos/test_application_setting.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/back.jpg" afterPath="$PROJECT_DIR$/screenshots/back.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/test_demo.py" afterPath="$PROJECT_DIR$/demo/test_demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdemos/home_page.py" afterPath="$PROJECT_DIR$/testdemos/home_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testdemos/html.py" afterPath="$PROJECT_DIR$/testdemos/html.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testsuites/ApplicationSetting/test_application_setting.py" afterPath="$PROJECT_DIR$/testsuites/ApplicationSetting/test_application_setting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testsuites/Register/test_register.py" afterPath="$PROJECT_DIR$/testsuites/Register/test_register.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_organization_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_organization_management Coverage Results" MODIFIED="1513318192923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_ehad_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_ehad_open Coverage Results" MODIFIED="1514440542856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1506411128716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner__1_.coverage" NAME="TestRunner (1) Coverage Results" MODIFIED="1506411328639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$home_page.coverage" NAME="home_page Coverage Results" MODIFIED="1516169267838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_aorg_management Coverage Results" MODIFIED="1516591212823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_receipt_Enterprise_Receipt_test_abaoxiao_account.coverage" NAME="Unittests for test_enterprise_receipt.Enterprise_Receipt.test_abaoxiao_account Coverage Results" MODIFIED="1514881494337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/Enterprise_Receipt" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner4.coverage" NAME="TestRunner4 Coverage Results" MODIFIED="1506413802871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$operateexcel.coverage" NAME="operateexcel Coverage Results" MODIFIED="1506586054512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_had_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_had_open Coverage Results" MODIFIED="1514363286468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_entry_statistics_Entry_Statistics_test_reimbursement_statistics.coverage" NAME="Unittests for test_entry_statistics.Entry_Statistics.test_reimbursement_statistics Coverage Results" MODIFIED="1514883057919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EntryStatistics" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_ablue_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_ablue_open Coverage Results" MODIFIED="1515487464546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_personal_operation_PersonalOperation_test_bmy_receipt.coverage" NAME="Unittests for test_personal_operation.PersonalOperation.test_bmy_receipt Coverage Results" MODIFIED="1514527451688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_home_page_HomePage_test_home_page.coverage" NAME="Unittests for test_home_page.HomePage.test_home_page Coverage Results" MODIFIED="1515120440637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/HomePage" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_output_statistics_OutputStatistics_test_sales_invoice_summary.coverage" NAME="Unittests for test_output_statistics.OutputStatistics.test_sales_invoice_summary Coverage Results" MODIFIED="1514291728428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/OutputStatistics" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_red_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_red_open Coverage Results" MODIFIED="1512635608199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_not_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_not_open Coverage Results" MODIFIED="1514339164913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_code_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_code_open Coverage Results" MODIFIED="1512637084748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$excelhelper.coverage" NAME="excelhelper Coverage Results" MODIFIED="1506578093616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_espda_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_espda_management Coverage Results" MODIFIED="1515639487963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_demo_ApplicationSetting_test_espda_management.coverage" NAME="Unittests for test_demo.ApplicationSetting.test_espda_management Coverage Results" MODIFIED="1516347164876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_receipt_Enterprise_Receipt_test_caigou_account.coverage" NAME="Unittests for test_enterprise_receipt.Enterprise_Receipt.test_caigou_account Coverage Results" MODIFIED="1514462313000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/Enterprise_Receipt" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_home_page_HomePage_test_other_operation.coverage" NAME="Unittests for home_page.HomePage.test_other_operation Coverage Results" MODIFIED="1515564526002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$TestRunner4.coverage" NAME="TestRunner4 Coverage Results" MODIFIED="1511163725454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_personal_operation_PersonalOperation_test_aupload.coverage" NAME="Unittests for test_personal_operation.PersonalOperation.test_aupload Coverage Results" MODIFIED="1514884298421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_personal_operation_py.coverage" NAME="Unittests in test_personal_operation.py Coverage Results" MODIFIED="1513148811632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_org_management_py.coverage" NAME="Unittests in org_management.py Coverage Results" MODIFIED="1506669112286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/applicationsetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_personal_operation_PersonalOperation_test_my_tag.coverage" NAME="Unittests for test_personal_operation.PersonalOperation.test_my_tag Coverage Results" MODIFIED="1513307375628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_enterprise_receipt_py.coverage" NAME="Unittests in test_enterprise_receipt.py Coverage Results" MODIFIED="1513342141978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/Enterprise_Receipt" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_personal_operation_PersonalOperation_test_my_receipt.coverage" NAME="Unittests for test_personal_operation.PersonalOperation.test_my_receipt Coverage Results" MODIFIED="1513238979767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_home_page_HomePage_test_other_operation.coverage" NAME="Unittests for test_home_page.HomePage.test_other_operation Coverage Results" MODIFIED="1515121071388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/HomePage" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_demo_py.coverage" NAME="Unittests in demo.py Coverage Results" MODIFIED="1515037167361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test__home_page_HomePage_test_home_page2.coverage" NAME="Unittests for test_ home_page.HomePage.test_home_page2 Coverage Results" MODIFIED="1511227370668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/HomePage" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$sendemailinfo.coverage" NAME="sendemailinfo Coverage Results" MODIFIED="1514267828419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$demotest.coverage" NAME="demotest Coverage Results" MODIFIED="1515395860099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$HTMLTestRunner4.coverage" NAME="HTMLTestRunner4 Coverage Results" MODIFIED="1515727463650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner__2_.coverage" NAME="TestRunner (2) Coverage Results" MODIFIED="1506412805067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_entry_statistics_Entry_Statistics_test_purchase_statistics.coverage" NAME="Unittests for test_entry_statistics.Entry_Statistics.test_purchase_statistics Coverage Results" MODIFIED="1514464612625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EntryStatistics" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$sendemail.coverage" NAME="sendemail Coverage Results" MODIFIED="1516174162278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$Unittests_in_baidu_search_py.coverage" NAME="Unittests in baidu_search.py Coverage Results" MODIFIED="1506408034251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_OrgManagement_test_organization_management.coverage" NAME="Unittests for test_application_setting.OrgManagement.test_organization_management Coverage Results" MODIFIED="1511849578985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_NotInvoiced_py.coverage" NAME="Unittests in NotInvoiced.py Coverage Results" MODIFIED="1509522636400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$utils.coverage" NAME="utils Coverage Results" MODIFIED="1513237093209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_dnot_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_dnot_open Coverage Results" MODIFIED="1515552843011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_spda_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_spda_management Coverage Results" MODIFIED="1512613622103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_demo_ApplicationSetting_test_dstaff_management.coverage" NAME="Unittests for test_demo.ApplicationSetting.test_dstaff_management Coverage Results" MODIFIED="1515741360694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_personal_operation_PersonalOperation_test_dpersonal_center.coverage" NAME="Unittests for test_personal_operation.PersonalOperation.test_dpersonal_center Coverage Results" MODIFIED="1514528501013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner2__1_.coverage" NAME="TestRunner2 (1) Coverage Results" MODIFIED="1506412926385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$setup.coverage" NAME="setup Coverage Results" MODIFIED="1506428886208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Program Files (x86)/Python2.7/xlrd-1.1.0" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_receipt_Enterprise_Receipt_test_baoxiao_account.coverage" NAME="Unittests for test_enterprise_receipt.Enterprise_Receipt.test_baoxiao_account Coverage Results" MODIFIED="1512627311589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/Enterprise_Receipt" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_org_management_py__1_.coverage" NAME="Unittests in test_org_management.py (1) Coverage Results" MODIFIED="1511225641858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_enterprise_invoicing_py.coverage" NAME="Unittests in test_enterprise_invoicing.py Coverage Results" MODIFIED="1514366760609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_hparaSet_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_hparaSet_management Coverage Results" MODIFIED="1515480826612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_org_management_OrgManagement_test_organization_management.coverage" NAME="Unittests for test_org_management.OrgManagement.test_organization_management Coverage Results" MODIFIED="1508131469853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/applicationsetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_MainTest_py.coverage" NAME="Unittests in MainTest.py Coverage Results" MODIFIED="1511773181114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/FunctionTest" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_demo_ApplicationSetting_test_hparaSet_management.coverage" NAME="Unittests for test_demo.ApplicationSetting.test_hparaSet_management Coverage Results" MODIFIED="1515742095534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_user_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_user_management Coverage Results" MODIFIED="1513320598385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$test.coverage" NAME="test Coverage Results" MODIFIED="1511831033023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_home_page_py.coverage" NAME="Unittests in test_home_page.py Coverage Results" MODIFIED="1515735263175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$sendemail2.coverage" NAME="sendemail2 Coverage Results" MODIFIED="1506675669126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_receipt_Enterprise_Receipt_test_historical_records.coverage" NAME="Unittests for test_enterprise_receipt.Enterprise_Receipt.test_historical_records Coverage Results" MODIFIED="1512631212144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/Enterprise_Receipt" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_application_setting_py__1_.coverage" NAME="Unittests in test_application_setting.py (1) Coverage Results" MODIFIED="1515466963250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_dstaff_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_dstaff_management Coverage Results" MODIFIED="1514180088553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$test_demo.coverage" NAME="test_demo Coverage Results" MODIFIED="1516275628411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner3.coverage" NAME="TestRunner3 Coverage Results" MODIFIED="1506413033757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$Unittests_in_test_nba_news_view_py.coverage" NAME="Unittests in test_nba_news_view.py Coverage Results" MODIFIED="1506412555828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_org_management_OrgManagement_test_role_management.coverage" NAME="Unittests for test_org_management.OrgManagement.test_role_management Coverage Results" MODIFIED="1508131749511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/applicationsetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_demotest_py.coverage" NAME="Unittests in demotest.py Coverage Results" MODIFIED="1512126778179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_invoicing_QiYeOpen_test_blue_open.coverage" NAME="Unittests for test_enterprise_invoicing.QiYeOpen.test_blue_open Coverage Results" MODIFIED="1514290435335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/EnterpriseInvoicing" />
+    <SUITE FILE_PATH="coverage/automation_framework_demo$Unittests_in_baidu_search_py.coverage" NAME="Unittests in E_invoice_Login.py Coverage Results" MODIFIED="1506392570408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1516678311895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$HTMLTestRunner.coverage" NAME="HTMLTestRunner Coverage Results" MODIFIED="1515655917796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Program Files (x86)/Python2.7/Lib" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$HTMLTestRunner1.coverage" NAME="HTMLTestRunner1 Coverage Results" MODIFIED="1515659166307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Program Files (x86)/Python2.7/Lib" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_demo_py.coverage" NAME="Unittests in test_demo.py Coverage Results" MODIFIED="1515738598437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_personal_operation_PersonalOperation_test_cmy_tag.coverage" NAME="Unittests for test_personal_operation.PersonalOperation.test_cmy_tag Coverage Results" MODIFIED="1514528644518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/PersonalOperation" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$sendemail.coverage" NAME="sendemail Coverage Results" MODIFIED="1506427727401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test__home_page_py.coverage" NAME="Unittests in test_ home_page.py Coverage Results" MODIFIED="1511227417321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/HomePage" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_org_management_py.coverage" NAME="Unittests in test_org_management.py Coverage Results" MODIFIED="1511158781052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/applicationsetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_brole_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_brole_management Coverage Results" MODIFIED="1514165591584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_staff_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_staff_management Coverage Results" MODIFIED="1513321889658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_enterprise_receipt_Enterprise_Receipt_test_question_ticket_management.coverage" NAME="Unittests for test_enterprise_receipt.Enterprise_Receipt.test_question_ticket_management Coverage Results" MODIFIED="1512630254246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/Enterprise_Receipt" />
+    <SUITE FILE_PATH="coverage/automation_framework_baidu$TestRunner2.coverage" NAME="TestRunner2 Coverage Results" MODIFIED="1506411902742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_demo_ApplicationSetting_test_paraSet_management.coverage" NAME="Unittests for test_demo.ApplicationSetting.test_paraSet_management Coverage Results" MODIFIED="1515742681384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$demo.coverage" NAME="demo Coverage Results" MODIFIED="1516607553087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testdemos" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Run.coverage" NAME="Run Coverage Results" MODIFIED="1508225303528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_MainTest_HomePage_test_all_page.coverage" NAME="Unittests for MainTest.HomePage.test_all_page Coverage Results" MODIFIED="1511772396229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/FunctionTest" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_in_test_application_setting_py.coverage" NAME="Unittests in test_application_setting.py Coverage Results" MODIFIED="1516599199295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/automation_framework_demo$Unittests_in_E_invoice_homepage_test_py.coverage" NAME="Unittests in E_invoice_homepage_test.py Coverage Results" MODIFIED="1506405313963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuits" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_cuser_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_cuser_management Coverage Results" MODIFIED="1513338517937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+    <SUITE FILE_PATH="coverage/AutoTestinvoice$Unittests_for_test_application_setting_ApplicationSetting_test_fkhda_management.coverage" NAME="Unittests for test_application_setting.ApplicationSetting.test_fkhda_management Coverage Results" MODIFIED="1516351066048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AutoTestinvoice" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1517">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_application_setting.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdemos/test_application_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="160" column="23" lean-forward="false" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="201801221622.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/201801221622.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3036">
+              <caret line="829" column="45" lean-forward="false" selection-start-line="829" selection-start-column="45" selection-end-line="829" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_all_case.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_all_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+              <folding>
+                <element signature="e#15#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-01-23-11_15_11HTMLtemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_report/2018-01-23-11_15_11HTMLtemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-01-23-11_31_52HTMLtemplate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_report/2018-01-23-11_31_52HTMLtemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testdemos/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>error</find>
+      <find>click</find>
+      <find>商品</find>
+      <find>疑票管理</find>
+      <find>未开票</find>
+      <find>is_element_visible</find>
+      <find>select</find>
+      <find>checkp</find>
+      <find>assert</find>
+      <find>TestCase</find>
+      <find>until</find>
+      <find>点击失败</find>
+      <find>chen</find>
+      <find>input</find>
+      <find>select_by_value</find>
+      <find>未找到</find>
+      <find>元素不存在</find>
+      <find>key</find>
+      <find>print</find>
+      <find>断言失败，预期值与实际值不一致</find>
+      <find>che</find>
+      <find>断言失败</find>
+      <find>员工管理</find>
+      <find>is_element_present</find>
+      <find>find_element</find>
+      <find>商品档案</find>
+      <find>check</find>
+      <find>check_element</find>
+      <find>NoSuchElementException</find>
+      <find>pre</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_report/2017-11-28-17_00_24HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/framework/excelhandle.py" />
+        <option value="$PROJECT_DIR$/framework/logger.py" />
+        <option value="$PROJECT_DIR$/test_report/2017-12-13-11_00_37HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/logs/201712131100.log" />
+        <option value="$PROJECT_DIR$/testsuites/PersonalOperation/test_personal_operation.py" />
+        <option value="$PROJECT_DIR$/logs/201712251816.log" />
+        <option value="$PROJECT_DIR$/logs/201712261035.log" />
+        <option value="$PROJECT_DIR$/framework/sendemailinfo.py" />
+        <option value="$PROJECT_DIR$/logs/201712281328.log" />
+        <option value="$PROJECT_DIR$/testsuites/Enterprise_Receipt/test_enterprise_receipt.py" />
+        <option value="$PROJECT_DIR$/testsuites/OutputStatistics/test_output_statistics.py" />
+        <option value="$PROJECT_DIR$/testsuites/EntryStatistics/test_entry_statistics.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-02-18_25_12HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/testdemos/html.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-04-14_03_17HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/testsuites/HomePage/test_home_page.py" />
+        <option value="$PROJECT_DIR$/framework/browser_engine.py" />
+        <option value="$PROJECT_DIR$/testsuites/Register/test_register.py" />
+        <option value="D:/Program Files (x86)/Python2.7/Lib/site-packages/pytesser/__init__.py" />
+        <option value="$PROJECT_DIR$/testsuites/demo.py" />
+        <option value="C:/Python35/Lib/site-packages/pytesser/__init__.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-08-09_32_11HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/testsuites/demotest.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-08-16_29_56HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-09-15_12_16HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/logs/201801081702.log" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-08-17_02_17HTMLtemplate.html" />
+        <option value="D:/TestStudy/Python/HTMLTestRunner2.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-10-16_56_01HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-11-15_54_57HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-11-20_24_32HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/testdemos/test_home_page.py" />
+        <option value="D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py" />
+        <option value="$PROJECT_DIR$/testdemos/HTMLTestRunner4.py" />
+        <option value="$PROJECT_DIR$/demo/test_demo.py" />
+        <option value="$PROJECT_DIR$/logs/201801151030.log" />
+        <option value="$PROJECT_DIR$/testsuites/EnterpriseInvoicing/test_enterprise_invoicing.py" />
+        <option value="$PROJECT_DIR$/run_all_case.py" />
+        <option value="$PROJECT_DIR$/framework/sendemail.py" />
+        <option value="$PROJECT_DIR$/testdemos/home_page.py" />
+        <option value="$PROJECT_DIR$/testdemos/test_demo.py" />
+        <option value="$PROJECT_DIR$/framework/utils.py" />
+        <option value="$PROJECT_DIR$/testsuites/ApplicationSetting/test_application_setting.py" />
+        <option value="$PROJECT_DIR$/testdemos/demo.py" />
+        <option value="$PROJECT_DIR$/framework/base_page.py" />
+        <option value="D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/testdemos/test_application_setting.py" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-23-11_15_11HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/test_report/2018-01-23-11_31_52HTMLtemplate.html" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="813" />
+    <option name="y" value="99" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyPep8Inspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="test_report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="testdemos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTestinvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTestEinvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.22233105" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\AutoTestEinvoice\testdemos" />
+      <recent name="D:\PycharmProjects\AutoTestEinvoice\testsuites\ApplicationSetting" />
+      <recent name="D:\PycharmProjects\AutoTestEinvoice\screenshots" />
+      <recent name="D:\PycharmProjects\AutoTestEinvoice\script\税务云-正式环境fapiao\3.应用设置" />
+      <recent name="D:\PycharmProjects\AutoTestEinvoice\script\税务云-正式环境fapiao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_all_case">
+    <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoTestinvoice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_application_setting.ApplicationSetting.test_aorg_management&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for test_application_setting.ApplicationSetting.test_fkhda_management" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoTestinvoice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_application_setting.ApplicationSetting.test_fkhda_management&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in test_application_setting.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsuites/ApplicationSetting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoTestinvoice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testsuites/ApplicationSetting/test_application_setting.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="automation_framework_demo" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="automation_framework_demo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testdemos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoTestinvoice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testdemos/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="run_all_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AutoTestinvoice" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_application_setting.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_application_setting.ApplicationSetting.test_fkhda_management" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_application_setting.ApplicationSetting.test_aorg_management" />
+      <item index="3" class="java.lang.String" itemvalue="Python.run_all_case" />
+      <item index="4" class="java.lang.String" itemvalue="Python.demo" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.run_all_case" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_application_setting.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_application_setting.ApplicationSetting.test_aorg_management" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_application_setting.ApplicationSetting.test_fkhda_management" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7904d23e-90a8-42da-ba60-2741393e3168" name="Default" comment="" />
+      <created>1506342511740</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506342511740</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 10h 29m 52s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 10h 46m 54s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 10h 55m 19s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 11h 02m 05s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 11h 14m 25s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 11h 17m 13s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_application_setting_ApplicationSetting_test_aorg_management - 2018.01.22 at 11h 21m 13s.xml">
+      <configuration name="Unittests for test_application_setting.ApplicationSetting.test_aorg_management" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_application_setting_py - 2018.01.19 at 15h 52m 29s.xml">
+      <configuration name="Unittests in test_application_setting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_application_setting_py - 2018.01.22 at 10h 01m 59s.xml">
+      <configuration name="Unittests in test_application_setting.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_application_setting_py - 2018.01.22 at 13h 41m 19s.xml">
+      <configuration name="Unittests in test_application_setting.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36452666" sideWeight="0.078891255" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3960827" sideWeight="0.6380597" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12260128" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.114072494" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42981502" sideWeight="0.9211087" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26847827" sideWeight="0.5101279" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24591948" sideWeight="0.9211087" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965885" sideWeight="0.49346405" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.114072494" sideWeight="0.50653595" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5408052" sideWeight="0.48987207" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/sendemail.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/applicationsetting1/test_org_management.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/FunctionTest/MainTest.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/FunctionTest/MainTest.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/PersonalOperation/test_personal_operation.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>229</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testsuites/demo.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>332</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py</url>
+          <line>782</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py</url>
+          <line>783</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py</url>
+          <line>813</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py</url>
+          <line>808</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py</url>
+          <line>816</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner1.py</url>
+          <line>812</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>364</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/test_demo.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/test_demo.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/test_demo.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>792</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>826</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>823</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>794</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>795</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>815</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py</url>
+          <line>819</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>289</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>299</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>417</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>422</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/base_page.py</url>
+          <line>415</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/framework/utils.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="309" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-12-15_40_46HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-12-16_08_50HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-12-16_15_39HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-12-16_12_12HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/demo/test_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-15-09_21_50HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-15-09_44_40HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-15-10_02_44HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/logs/201801151030.log" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-15-10_30_08HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-10-16_56_01HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/logs/201801151002.log" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-16-19_06_26HTMLtemplate.html" />
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-16-09_33_40HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/201801160933.log" />
+    <entry file="file://$PROJECT_DIR$/framework/sendemail2.py" />
+    <entry file="file://$PROJECT_DIR$/framework/sendemail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="e#54#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdemos/HTMLTestRunner4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python2.7/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/201801190914.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/201801191038.png" />
+    <entry file="file://$PROJECT_DIR$/testsuites/EnterpriseInvoicing/test_enterprise_invoicing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="98" column="8" lean-forward="true" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/201801191128.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/201801191458.png" />
+    <entry file="file://$PROJECT_DIR$/testdemos/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python2.7/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/201801191545.log" />
+    <entry file="file://$PROJECT_DIR$/logs/201801191634.log" />
+    <entry file="file://$PROJECT_DIR$/logs/201801191635.log" />
+    <entry file="file://$PROJECT_DIR$/logs/201801191636.log" />
+    <entry file="file://$PROJECT_DIR$/logs/201801191637.log" />
+    <entry file="file://$PROJECT_DIR$/framework/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/201801221120.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="87" column="47" lean-forward="false" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/ApplicationSetting/test_application_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3518">
+          <caret line="47" column="65" lean-forward="true" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdemos/test_demo.py" />
+    <entry file="file://$PROJECT_DIR$/testdemos/test_home_page.py" />
+    <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-22-13_52_20HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdemos/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/201801221352.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15675">
+          <caret line="475" column="55" lean-forward="false" selection-start-line="475" selection-start-column="50" selection-end-line="475" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python2.7/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-22-16_22_35HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/201801221622.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3036">
+          <caret line="829" column="45" lean-forward="false" selection-start-line="829" selection-start-column="45" selection-end-line="829" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1517">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python2.7/Lib/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="810" column="53" lean-forward="true" selection-start-line="810" selection-start-column="53" selection-end-line="810" selection-end-column="53" />
+          <folding>
+            <element signature="e#3312#3327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testdemos/test_application_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="160" column="23" lean-forward="false" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-23-11_15_11HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_all_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="25" column="62" lean-forward="false" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_report/2018-01-23-11_31_52HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,2 @@
+strL = "pt1.4: D:/PycharmProjects/AutoTestEinvoice/screenshots/201801221356.png\nD:/PycharmProjects/AutoTestEinvoice/screenshots/201801221356.png\nD:/PycharmProjects/AutoTestEinvoice/screenshots/201801221356.png\nD:/PycharmProjects/AutoTestEinvoice/screenshots/201801221356.png"
+print strL[-64:]

@@ -1,0 +1,954 @@
+2018-01-22 16:22:35,834 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:22:39,167 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:22:40,289 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:22:40,299 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:22:45,355 - BasePage - INFO - 开始回放脚本组织管理
+2018-01-22 16:22:45,388 - BasePage - INFO - 行号：1,内容:['wait','','','1000','','']
+2018-01-22 16:22:46,404 - BasePage - INFO - 行号：2,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:22:46,664 - BasePage - INFO - 行号：3,内容:['click','xpath','//*[@id='header']//span[text()='组织管理']','','','组织管理']
+2018-01-22 16:22:47,062 - BasePage - INFO - 行号：4,内容:['wait','','','1000','','']
+2018-01-22 16:22:48,062 - BasePage - INFO - 行号：5,内容:['click','xpath','//*[@id='content']//div[@class='btn-icons add-org-treeBtn']','','','增加组织']
+2018-01-22 16:22:48,213 - BasePage - INFO - 行号：6,内容:['input','xpath','//*[@id='first-corp-input'] ','FunctionAutoOrg','','编码']
+2018-01-22 16:22:48,423 - BasePage - INFO - 行号：7,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入名称']','功能自动化勿用','','名称']
+2018-01-22 16:22:48,651 - BasePage - INFO - 行号：8,内容:['input','xpath','//div[@class='page-views top-padding']/div[3]/div/div[5]/div[2]/input','13143533454','','电话']
+2018-01-22 16:22:48,823 - BasePage - INFO - 行号：9,内容:['input','xpath','//div[@class='page-views top-padding']/div[3]/div/div[6]/div[2]/input','周毅','','联系人']
+2018-01-22 16:22:48,953 - BasePage - INFO - 行号：10,内容:['input','xpath','//*[@id='nsrsbh']','111222333123999','','纳税人识别号']
+2018-01-22 16:22:49,170 - BasePage - INFO - 行号：11,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入纳税人名称']','Auto.01','','纳税人名称']
+2018-01-22 16:22:49,394 - BasePage - INFO - 行号：12,内容:['input','xpath','//*[@id='views-container']//input[@data-bind='value: oldNsrsbh']','111222333123124','','曾用纳税人识别号']
+2018-01-22 16:22:49,589 - BasePage - INFO - 行号：13,内容:['input','xpath','//*[@id='views-container']//input[@data-bind='value: oldNsrmc']','Auto.00','','曾用纳税人名称']
+2018-01-22 16:22:49,799 - BasePage - INFO - 行号：14,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入地址']','北京市北京经济技术开发区科创十四街99号','','地址']
+2018-01-22 16:22:50,053 - BasePage - INFO - 行号：15,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入电话号码']','010-56754031','','电话号码']
+2018-01-22 16:22:50,256 - BasePage - INFO - 行号：16,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入开户行名称']','中国建设银行','','开户行名称']
+2018-01-22 16:22:50,397 - BasePage - INFO - 行号：17,内容:['input','xpath','//*[@id='views-container']//input[@title='请输入开户行账号']','6212261009111300000','','开户行账号']
+2018-01-22 16:22:50,611 - BasePage - INFO - 行号：18,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 16:22:50,717 - BasePage - INFO - 行号：19,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 16:22:51,970 - BasePage - INFO - 行号：20,内容:['','','组织管理-基本信息增加复选项：机关、事业单位。
+1. 如果选中：则纳税人识别号不必填；
+2. 如果纳税人识别号为空，不允许勾选开票组织；
+3. 如果纳税人识别号为空，报销提交发票到报销/采购台账时，不校验税号必填；如果有纳税人识别号，仍然校验税号一致。','','*','']
+2018-01-22 16:22:51,970 - BasePage - INFO - 行号：21,内容:['click','cssSelector','label.label-checked','','','勾选机关、事业单位']
+2018-01-22 16:22:52,102 - BasePage - INFO - 行号：22,内容:['input','xpath','//*[@id='nsrsbh']','','','清空纳税人识别号']
+2018-01-22 16:22:52,219 - BasePage - INFO - 行号：23,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 16:22:52,303 - BasePage - INFO - 行号：24,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功','','']
+2018-01-22 16:22:52,410 - BasePage - ERROR - 断言失败，检查点元素不存在，请检查定位方式或定位值，详细信息：
+2018-01-22 16:22:52,410 - BasePage - INFO - 行号：25,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','勾选开票']
+2018-01-22 16:22:52,539 - BasePage - INFO - 行号：26,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','请输入纳税人识别号','','']
+2018-01-22 16:22:53,676 - BasePage - INFO - 行号：27,内容:['input','xpath','//*[@id='nsrsbh']','111222333123999','','输入纳税人识别号']
+2018-01-22 16:22:53,966 - BasePage - INFO - 行号：28,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','勾选开票']
+2018-01-22 16:22:54,108 - BasePage - INFO - 行号：29,内容:['wait','','','1000','','']
+2018-01-22 16:22:55,111 - BasePage - INFO - 行号：30,内容:['checkpoint','cssSelector','#nsrsbhEditTypeModal > div > div','','','税号修改提示框弹出']
+2018-01-22 16:22:55,210 - BasePage - INFO - 行号：31,内容:['click','cssSelector','#checkCode_01+label','','','企业税号变更']
+2018-01-22 16:22:55,323 - BasePage - INFO - 行号：32,内容:['click','cssSelector','#checkCode_02+label','','','组织税号变更']
+2018-01-22 16:22:55,434 - BasePage - INFO - 行号：33,内容:['click','xpath','//div[@id='nsrsbhEditTypeModal']//span[@class='button default']','','','确定']
+2018-01-22 16:22:55,535 - BasePage - INFO - 行号：34,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','勾选开票']
+2018-01-22 16:22:57,075 - BasePage - INFO - 行号：35,内容:['','','完成机关事业单位的1、2条需求','','*','']
+2018-01-22 16:22:57,075 - BasePage - INFO - 行号：36,内容:['input','xpath','//*[@id='make-invoice-show']/div[1]/div[1]/div[2]/input','张力和','','开票人']
+2018-01-22 16:22:57,282 - BasePage - INFO - 行号：37,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[2]/div[2]/input','梅兹','','复核人']
+2018-01-22 16:22:57,436 - BasePage - INFO - 行号：38,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[3]/div[2]/input','唐钰','','收款人']
+2018-01-22 16:22:57,568 - BasePage - INFO - 行号：39,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备1']
+2018-01-22 16:22:57,688 - BasePage - INFO - 行号：40,内容:['wait','','','1000','','']
+2018-01-22 16:22:58,690 - BasePage - INFO - 行号：41,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请填写税控设备编号']','Auto001','','选择或填写税控编号']
+2018-01-22 16:22:58,927 - BasePage - INFO - 行号：42,内容:['input','xpath','//*[@id='taxMechModal']//input[@data-bind='value: taxMechName']','Auto百旺3.0','','税控设备名称']
+2018-01-22 16:22:59,091 - BasePage - INFO - 行号：43,内容:['click','xpath','//*[@id='select2-taxSoftVersion-container']','','','点击选择税控版本']
+2018-01-22 16:22:59,200 - BasePage - INFO - 行号：44,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[1]','','*','选择航信']
+2018-01-22 16:22:59,200 - BasePage - INFO - 行号：45,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[2]','','','选择百旺']
+2018-01-22 16:22:59,306 - BasePage - INFO - 行号：46,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请输入发票开具限额']','10000','','开具限额']
+2018-01-22 16:22:59,444 - BasePage - INFO - 行号：47,内容:['click','xpath','//*[@id='select2-taxBmbBbh-container']','','','选择编码版本号']
+2018-01-22 16:22:59,548 - BasePage - INFO - 行号：48,内容:['click','xpath','//*[@id='select2-taxBmbBbh-results']/li','','','13']
+2018-01-22 16:22:59,673 - BasePage - INFO - 行号：49,内容:['click','xpath','//*[@id='select2-taxMechType-container']','','','选择发票种类']
+2018-01-22 16:22:59,776 - BasePage - INFO - 行号：50,内容:['click','xpath','//*[@id='select2-taxMechType-results']/li[1]','','','增值税电子普通发票']
+2018-01-22 16:22:59,884 - BasePage - INFO - 行号：51,内容:['click','xpath','//*[@id='taxMechModal']//span[text()='保存']','','','保存添加税控设备']
+2018-01-22 16:23:00,000 - BasePage - INFO - 行号：52,内容:['wait','','','1000','','']
+2018-01-22 16:23:01,003 - BasePage - INFO - 行号：53,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备2']
+2018-01-22 16:23:01,167 - BasePage - INFO - 行号：54,内容:['wait','','','1000','','']
+2018-01-22 16:23:02,167 - BasePage - INFO - 行号：55,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请填写税控设备编号']','Auto002','','选择或填写税控编号']
+2018-01-22 16:23:02,382 - BasePage - INFO - 行号：56,内容:['input','xpath','//*[@id='taxMechModal']//input[@data-bind='value: taxMechName']','Auto百旺3.0','','税控设备名称']
+2018-01-22 16:23:02,523 - BasePage - INFO - 行号：57,内容:['click','xpath','//*[@id='select2-taxSoftVersion-container']','','','点击选择税控版本']
+2018-01-22 16:23:02,641 - BasePage - INFO - 行号：58,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[1]','','*','选择航信']
+2018-01-22 16:23:02,641 - BasePage - INFO - 行号：59,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[2]','','','选择百旺']
+2018-01-22 16:23:02,736 - BasePage - INFO - 行号：60,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请输入发票开具限额']','1000','','开具限额']
+2018-01-22 16:23:02,842 - BasePage - INFO - 行号：61,内容:['click','xpath','//*[@id='select2-taxBmbBbh-container']','','','选择编码版本号']
+2018-01-22 16:23:02,937 - BasePage - INFO - 行号：62,内容:['click','xpath','//*[@id='select2-taxBmbBbh-results']/li','','','13']
+2018-01-22 16:23:03,036 - BasePage - INFO - 行号：63,内容:['click','xpath','//*[@id='select2-taxMechType-container']','','','选择发票种类']
+2018-01-22 16:23:03,134 - BasePage - INFO - 行号：64,内容:['click','xpath','//*[@id='select2-taxMechType-results']/li[2]','','','增值税普通发票']
+2018-01-22 16:23:03,226 - BasePage - INFO - 行号：65,内容:['click','xpath','//*[@id='taxMechModal']//span[text()='保存']','','','保存添加税控设备']
+2018-01-22 16:23:03,305 - BasePage - INFO - 行号：66,内容:['wait','','','1000','','']
+2018-01-22 16:23:04,305 - BasePage - INFO - 行号：67,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备3']
+2018-01-22 16:23:04,523 - BasePage - INFO - 行号：68,内容:['wait','','','1000','','']
+2018-01-22 16:23:05,523 - BasePage - INFO - 行号：69,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请填写税控设备编号']','Auto003','','选择或填写税控编号']
+2018-01-22 16:23:05,709 - BasePage - INFO - 行号：70,内容:['input','xpath','//*[@id='taxMechModal']//input[@data-bind='value: taxMechName']','Auto百旺3.0','','税控设备名称']
+2018-01-22 16:23:05,828 - BasePage - INFO - 行号：71,内容:['click','xpath','//*[@id='select2-taxSoftVersion-container']','','','点击选择税控版本']
+2018-01-22 16:23:05,927 - BasePage - INFO - 行号：72,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[1]','','*','选择航信']
+2018-01-22 16:23:05,927 - BasePage - INFO - 行号：73,内容:['click','xpath','//*[@id='select2-taxSoftVersion-results']/li[2]','','','选择百旺']
+2018-01-22 16:23:06,039 - BasePage - INFO - 行号：74,内容:['input','xpath','//*[@id='taxMechModal']//input[@title='请输入发票开具限额']','1000','','开具限额']
+2018-01-22 16:23:06,134 - BasePage - INFO - 行号：75,内容:['click','xpath','//*[@id='select2-taxBmbBbh-container']','','','选择编码版本号']
+2018-01-22 16:23:06,226 - BasePage - INFO - 行号：76,内容:['click','xpath','//*[@id='select2-taxBmbBbh-results']/li','','','13']
+2018-01-22 16:23:06,322 - BasePage - INFO - 行号：77,内容:['click','xpath','//*[@id='select2-taxMechType-container']','','','选择发票种类']
+2018-01-22 16:23:06,427 - BasePage - INFO - 行号：78,内容:['click','xpath','//*[@id='select2-taxMechType-results']/li[3]','','','增值税专用发票']
+2018-01-22 16:23:06,532 - BasePage - INFO - 行号：79,内容:['click','xpath','//*[@id='taxMechModal']//span[text()='保存']','','','保存添加税控设备']
+2018-01-22 16:23:06,621 - BasePage - INFO - 行号：80,内容:['wait','','','1000','','']
+2018-01-22 16:23:07,621 - BasePage - INFO - 行号：81,内容:['click','xpath','//*[@id='make-invoice-show']//div[@class='addTaxMechBtn']/span','','','添加税控设备4']
+2018-01-22 16:23:07,775 - BasePage - INFO - 行号：82,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','发票种类已添加完整','','']
+2018-01-22 16:23:08,940 - BasePage - INFO - 行号：83,内容:['click','xpath','//*[@id='views-container']//label[@for='drawee-invoice']','','','勾选受票']
+2018-01-22 16:23:09,058 - BasePage - INFO - 行号：84,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 16:23:09,174 - BasePage - INFO - 行号：85,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功','','']
+2018-01-22 16:23:10,319 - BasePage - INFO - 行号：86,内容:['','','','','*','查询组织']
+2018-01-22 16:23:10,319 - BasePage - INFO - 行号：87,内容:['input','xpath','//*[@id='keywords']','FunctionAutoOrg','','输入组织编码查询关键字']
+2018-01-22 16:23:10,522 - BasePage - INFO - 行号：88,内容:['click','xpath','//*[@id='content']//div[@class='search-icon']','','','点击搜索图标']
+2018-01-22 16:23:10,615 - BasePage - INFO - 行号：89,内容:['checkpoint','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','']
+2018-01-22 16:23:10,653 - BasePage - INFO - 行号：90,内容:['click','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','修改组织信息']
+2018-01-22 16:23:10,773 - BasePage - INFO - 行号：91,内容:['','','组织管理-基本信息增加复选项：机关、事业单位。
+1. 如果选中：则纳税人识别号不必填；
+2. 如果纳税人识别号为空，不允许勾选开票组织；
+3. 如果纳税人识别号为空，报销提交发票到报销/采购台账时，不校验税号必填；如果有纳税人识别号，仍然校验税号一致。','','*','']
+2018-01-22 16:23:10,773 - BasePage - INFO - 行号：92,内容:['click','cssSelector','label.label-checked','','','取消勾选机关、事业单位']
+2018-01-22 16:23:11,822 - BasePage - INFO - 行号：93,内容:['input','xpath','//*[@id='nsrsbh']','','','清空纳税人识别号']
+2018-01-22 16:23:11,940 - BasePage - INFO - 行号：94,内容:['click','xpath','//*[@id='views-container']//label[@for='make-invoice']','','','取消勾选开票']
+2018-01-22 16:23:12,043 - BasePage - INFO - 行号：95,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','业务信息组织属性不可修改','','']
+2018-01-22 16:23:13,200 - BasePage - INFO - 行号：96,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 16:23:13,308 - BasePage - INFO - 行号：97,内容:['checkpoint','cssSelector','#nsrsbh+span','请输入税号','','']
+2018-01-22 16:23:13,424 - BasePage - INFO - 行号：98,内容:['input','xpath','//*[@id='nsrsbh']','111222333123999','','输入纳税人识别号']
+2018-01-22 16:23:13,572 - BasePage - INFO - 行号：99,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 16:23:13,642 - BasePage - INFO - 行号：100,内容:['wait','','','1000','','']
+2018-01-22 16:23:14,644 - BasePage - INFO - 行号：101,内容:['click','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','修改组织信息']
+2018-01-22 16:23:14,788 - BasePage - INFO - 行号：102,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 16:23:15,941 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:23:15,941 - BasePage - INFO - 行号：103,内容:['input','xpath','//div[@class='page-views top-padding']/div[3]/div/div[5]/div[2]/input','13143530000','','电话']
+2018-01-22 16:23:16,125 - BasePage - INFO - 行号：104,内容:['input','xpath','//*[@id='make-invoice-show']/div[1]/div[1]/div[2]/input','王小九','','开票人']
+2018-01-22 16:23:16,269 - BasePage - INFO - 行号：105,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[2]/div[2]/input','赵小九','','复核人']
+2018-01-22 16:23:16,411 - BasePage - INFO - 行号：106,内容:['input','xpath','//*[@id="make-invoice-show"]/div[1]/div[3]/div[2]/input','钱小九','','收款人']
+2018-01-22 16:23:16,549 - BasePage - INFO - 行号：107,内容:['click','xpath','//*[@id='views-container']//img[@alt='预约二维码生成']','','','预约二维码']
+2018-01-22 16:23:16,658 - BasePage - INFO - 行号：108,内容:['click','xpath','//*[@id='readyQrModal']//span[@class='button light']','','','取消']
+2018-01-22 16:23:17,974 - BasePage - INFO - 行号：109,内容:['click','xpath','//*[@id='views-container']//img[@alt='预约二维码生成']','','','预约二维码']
+2018-01-22 16:23:19,553 - BasePage - INFO - 行号：110,内容:['click','xpath','//*[@id='readyQrModal']//span[@class='button default']','','','下载']
+2018-01-22 16:23:21,278 - BasePage - INFO - 行号：111,内容:['click','xpath','//*[@id='readyQrModal']//button[@class='close']','','','关闭']
+2018-01-22 16:23:21,444 - BasePage - INFO - 行号：112,内容:['click','xpath','//*[@id='views-container']//img[@alt='邀请加入二维码']','','','邀请加入二维码']
+2018-01-22 16:23:23,051 - BasePage - INFO - 行号：113,内容:['click','xpath','//*[@id='inviteModal']//span[@data-dismiss='modal']','','','取消']
+2018-01-22 16:23:23,782 - BasePage - INFO - 行号：114,内容:['click','xpath','//*[@id='views-container']//img[@alt='邀请加入二维码']','','','邀请二维码']
+2018-01-22 16:23:25,407 - BasePage - INFO - 行号：115,内容:['click','xpath','//*[@id="join-download-Qr"]','','','下载']
+2018-01-22 16:23:26,197 - BasePage - INFO - 行号：116,内容:['click','xpath','//*[@id='inviteModal']//button[@class='close']','','','关闭']
+2018-01-22 16:23:26,334 - BasePage - INFO - 行号：117,内容:['click','cssSelector','div.corp-btns > div:nth-child(1) > span','','','保存']
+2018-01-22 16:23:27,858 - BasePage - INFO - 行号：118,内容:['click','xpath','//*[@id='content']//p[text()='功能自动化勿用']','','','删除组织信息']
+2018-01-22 16:23:27,996 - BasePage - INFO - 行号：119,内容:['click','xpath','//*[@id='content']//div[@class='btn-icons del-org-treeBtn']','','','']
+2018-01-22 16:23:28,153 - BasePage - INFO - 行号：120,内容:['click','xpath','//button[@data-bb-handler='cancel']','','','取消']
+2018-01-22 16:23:28,857 - BasePage - INFO - 行号：121,内容:['click','xpath','//*[@id='content']//div[@class='btn-icons del-org-treeBtn']','','','']
+2018-01-22 16:23:30,447 - BasePage - INFO - 行号：122,内容:['click','xpath','//button[@data-bb-handler='confirm']','','','确定删除']
+2018-01-22 16:23:31,193 - BasePage - INFO - 行号：123,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','删除组织成功','','']
+2018-01-22 16:23:33,499 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 16:23:33,500 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 16:23:33,500 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 16:23:33,500 - BasePage - INFO - 结束回放脚本组织管理
+2018-01-22 16:23:34,377 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:23:37,940 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:23:39,065 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:23:39,076 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:23:44,094 - BasePage - INFO - 开始回放脚本角色管理
+2018-01-22 16:23:44,127 - BasePage - INFO - 行号：1,内容:['wait','','','3000','','']
+2018-01-22 16:23:47,128 - BasePage - INFO - 行号：2,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:23:47,260 - BasePage - INFO - 行号：3,内容:['click','xpath','//*[@id='header']//span[text()='角色管理']','','','角色管理']
+2018-01-22 16:23:47,372 - BasePage - INFO - 行号：4,内容:['wait','','','3000','','']
+2018-01-22 16:23:50,374 - BasePage - INFO - 行号：5,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:23:50,543 - BasePage - INFO - 行号：6,内容:['click','xpath','//*[@id='addRoleModal']//span[@class='button light']','','','取消']
+2018-01-22 16:23:51,299 - BasePage - INFO - 行号：7,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:23:52,719 - BasePage - INFO - 行号：8,内容:['click','xpath','//*[@id="addRoleModal"]//button[@class="close"]','','','关闭']
+2018-01-22 16:23:53,446 - BasePage - INFO - 行号：9,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:23:54,969 - BasePage - INFO - 行号：10,内容:['click','cssSelector','span.button.light+span','','','确定']
+2018-01-22 16:23:55,665 - BasePage - INFO - 行号：11,内容:['input','xpath','//*[@id="first-input"]','hhh113','','编号']
+2018-01-22 16:23:55,796 - BasePage - INFO - 行号：12,内容:['input','xpath','//*[@id="second-input"]','hhhh3','','名称']
+2018-01-22 16:23:55,930 - BasePage - INFO - 行号：13,内容:['click','cssSelector','span.button.light+span','','','确定']
+2018-01-22 16:23:56,022 - BasePage - INFO - 行号：14,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','新增成功','','']
+2018-01-22 16:23:57,308 - BasePage - INFO - 行号：15,内容:['wait','','','2000','','']
+2018-01-22 16:23:59,309 - BasePage - INFO - 行号：16,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:23:59,459 - BasePage - INFO - 行号：17,内容:['input','xpath','//*[@id="first-input"]','hhh114','','编号']
+2018-01-22 16:24:00,174 - BasePage - INFO - 行号：18,内容:['input','xpath','//*[@id="second-input"]','hhhh4','','名称']
+2018-01-22 16:24:00,298 - BasePage - INFO - 行号：19,内容:['click','cssSelector','span.button.light+span','','','确定']
+2018-01-22 16:24:00,388 - BasePage - INFO - 行号：20,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','新增成功','','']
+2018-01-22 16:24:01,622 - BasePage - INFO - 行号：21,内容:['wait','','','1000','','']
+2018-01-22 16:24:02,624 - BasePage - INFO - 行号：22,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:24:02,733 - BasePage - INFO - 行号：23,内容:['input','xpath','//*[@id="first-input"]','hhh115','','编号']
+2018-01-22 16:24:03,469 - BasePage - INFO - 行号：24,内容:['input','xpath','//*[@id="second-input"]','hhhh5','','名称']
+2018-01-22 16:24:03,592 - BasePage - INFO - 行号：25,内容:['click','cssSelector','span.button.light+span','','','确定']
+2018-01-22 16:24:03,687 - BasePage - INFO - 行号：26,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','新增成功','','']
+2018-01-22 16:24:04,901 - BasePage - INFO - 行号：27,内容:['wait','','','1000','','']
+2018-01-22 16:24:05,901 - BasePage - INFO - 行号：28,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[4]/*[name()='svg'][1]','','','修改']
+2018-01-22 16:24:06,068 - BasePage - INFO - 行号：29,内容:['click','cssSelector','span.button.light','','','取消']
+2018-01-22 16:24:06,779 - BasePage - INFO - 行号：30,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[4]/*[name()='svg'][1]','','','修改']
+2018-01-22 16:24:08,266 - BasePage - INFO - 行号：31,内容:['click','xpath','//*[@id="addRoleModal"]//button[@class="close"]','','','关闭']
+2018-01-22 16:24:08,957 - BasePage - INFO - 行号：32,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[4]/*[name()='svg'][1]','','','修改']
+2018-01-22 16:24:10,474 - BasePage - INFO - 行号：33,内容:['input','xpath','//*[@id="second-input"]','测试','','修改名称']
+2018-01-22 16:24:11,243 - BasePage - INFO - 行号：34,内容:['click','cssSelector','span.button.light+span+span','','','确定']
+2018-01-22 16:24:11,351 - BasePage - INFO - 行号：35,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','修改成功','','']
+2018-01-22 16:24:12,588 - BasePage - INFO - 行号：36,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr[1]/td[3]','测试','','']
+2018-01-22 16:24:13,773 - BasePage - INFO - 行号：37,内容:['click','cssSelector','div.btn-icons.delBtn+span','','','删除']
+2018-01-22 16:24:13,897 - BasePage - INFO - 行号：38,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','至少选择一条数据','','']
+2018-01-22 16:24:15,039 - BasePage - INFO - 行号：39,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]','','','']
+2018-01-22 16:24:15,209 - BasePage - INFO - 行号：40,内容:['click','cssSelector','div.btn-icons.delBtn+span','','','删除']
+2018-01-22 16:24:15,434 - BasePage - INFO - 行号：41,内容:['click','xpath','//button[text()="取消"]','','','取消']
+2018-01-22 16:24:16,079 - BasePage - INFO - 行号：42,内容:['wait','','','1000','','']
+2018-01-22 16:24:17,081 - BasePage - INFO - 行号：43,内容:['click','cssSelector','div.btn-icons.delBtn+span','','','删除']
+2018-01-22 16:24:17,196 - BasePage - INFO - 行号：44,内容:['click','xpath','//button[@class='bootbox-close-button close']','','','关闭']
+2018-01-22 16:24:17,907 - BasePage - INFO - 行号：45,内容:['wait','','','1000','','']
+2018-01-22 16:24:18,907 - BasePage - INFO - 行号：46,内容:['click','cssSelector','div.btn-icons.delBtn+span','','','删除']
+2018-01-22 16:24:19,062 - BasePage - INFO - 行号：47,内容:['click','xpath','//button[@class='btn button light']','','','确定']
+2018-01-22 16:24:19,730 - BasePage - INFO - 行号：48,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[4]/*[name()='svg'][2]','','','点击删除图标']
+2018-01-22 16:24:21,292 - BasePage - INFO - 行号：49,内容:['click','xpath','//button[@class='btn button light']','','','确定']
+2018-01-22 16:24:21,973 - BasePage - INFO - 行号：50,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[4]/*[name()='svg'][3]','','','点击授权图标']
+2018-01-22 16:24:23,658 - BasePage - INFO - 行号：51,内容:['click','xpath','//a[text()="全选"]','','*','全选']
+2018-01-22 16:24:23,658 - BasePage - INFO - 行号：52,内容:['click','xpath','//a[text()="清空"]','','*','清空']
+2018-01-22 16:24:23,660 - BasePage - INFO - 行号：53,内容:['wait','','','1000','','']
+2018-01-22 16:24:24,661 - BasePage - INFO - 行号：54,内容:['click','xpath','//*[@id="role-list"]/div[1]/div[1]/label','','','']
+2018-01-22 16:24:24,842 - BasePage - INFO - 行号：55,内容:['click','xpath','//*[@id="role-list"]/div[2]/div[1]/label','','','']
+2018-01-22 16:24:24,957 - BasePage - INFO - 行号：56,内容:['click','xpath','//*[@id="role-list"]/div[8]/div[1]/label','','','']
+2018-01-22 16:24:25,059 - BasePage - INFO - 行号：57,内容:['click','xpath','//span[text()='授权']','','','授权']
+2018-01-22 16:24:25,160 - BasePage - INFO - 行号：58,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 16:24:26,358 - BasePage - INFO - 行号：59,内容:['','','以下测角色被引用或已存在的情况','','*','']
+2018-01-22 16:24:26,358 - BasePage - INFO - 行号：60,内容:['click','xpath','//span[text()="新增"]','','','新增']
+2018-01-22 16:24:26,483 - BasePage - INFO - 行号：61,内容:['input','xpath','//*[@id="first-input"]','hhh113','','编号']
+2018-01-22 16:24:27,217 - BasePage - INFO - 行号：62,内容:['input','xpath','//*[@id="second-input"]','hhhh3','','名称']
+2018-01-22 16:24:27,384 - BasePage - INFO - 行号：63,内容:['click','cssSelector','span.button.light+span','','','确定']
+2018-01-22 16:24:27,476 - BasePage - INFO - 行号：64,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','当前公司不允许存在相同的角色编号或角色名称','','']
+2018-01-22 16:24:29,450 - BasePage - INFO - 行号：65,内容:['click','xpath','//*[@id="addRoleModal"]//button[@class="close"]','','','关闭']
+2018-01-22 16:24:29,559 - BasePage - INFO - 行号：66,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[3]/td[1]/span/label','','','']
+2018-01-22 16:24:31,131 - BasePage - INFO - 行号：67,内容:['click','cssSelector','div.btn-icons.delBtn+span','','','删除']
+2018-01-22 16:24:31,255 - BasePage - INFO - 行号：68,内容:['click','xpath','//button[@class='btn button light']','','','确定']
+2018-01-22 16:24:31,951 - BasePage - INFO - 行号：69,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','该角色已经被引用，不允许删除','','']
+2018-01-22 16:24:33,138 - BasePage - INFO - 行号：70,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]','','*','']
+2018-01-22 16:24:33,138 - BasePage - INFO - 行号：71,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[4]/*[name()='svg'][2]','','','点击删除图标']
+2018-01-22 16:24:33,270 - BasePage - INFO - 行号：72,内容:['click','xpath','//button[@class='btn button light']','','','确定删除hhh113']
+2018-01-22 16:24:33,959 - BasePage - INFO - 结束回放脚本角色管理
+2018-01-22 16:24:33,959 - BasePage - INFO - 结束回放脚本角色管理
+2018-01-22 16:24:33,960 - BasePage - INFO - 结束回放脚本角色管理
+2018-01-22 16:24:33,960 - BasePage - INFO - 结束回放脚本角色管理
+2018-01-22 16:24:34,838 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:24:38,233 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:24:39,361 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:24:39,368 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:24:44,447 - BasePage - INFO - 开始回放脚本用户管理
+2018-01-22 16:24:44,476 - BasePage - INFO - 行号：1,内容:['wait','','','3000','','']
+2018-01-22 16:24:47,476 - BasePage - INFO - 行号：2,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:24:47,608 - BasePage - INFO - 行号：3,内容:['click','xpath','//*[@id='header']//span[text()='用户管理']','','','用户管理']
+2018-01-22 16:24:47,742 - BasePage - INFO - 行号：4,内容:['wait','','','2000','','']
+2018-01-22 16:24:49,742 - BasePage - INFO - 行号：5,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','shy100','','输入账号']
+2018-01-22 16:24:49,921 - BasePage - INFO - 行号：6,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:24:50,023 - BasePage - INFO - 行号：7,内容:['checkpoint','xpath','//*[@id='table']/table/tbody//td[4][contains(text(),'shy100')]','','','']
+2018-01-22 16:24:50,171 - BasePage - INFO - 行号：8,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','自动化测试','','输入用户名']
+2018-01-22 16:24:50,267 - BasePage - INFO - 行号：9,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','搜索文字']
+2018-01-22 16:24:50,365 - BasePage - INFO - 行号：10,内容:['checkpoint','xpath','//*[@id='table']/table/tbody//td[4][contains(text(),'自动化测试')]','','','']
+2018-01-22 16:24:50,469 - BasePage - INFO - 行号：11,内容:['click','xpath','//div[@class='fuzzy-search-empty']','','','清空']
+2018-01-22 16:24:50,568 - BasePage - INFO - 行号：12,内容:['wait','','','2000','','']
+2018-01-22 16:24:52,569 - BasePage - INFO - 行号：13,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:24:52,724 - BasePage - INFO - 行号：14,内容:['wait','','','1000','','']
+2018-01-22 16:24:53,726 - BasePage - INFO - 行号：15,内容:['click','xpath','//div[@class='modal-operation']/span[@class='button light']','','','取消']
+2018-01-22 16:24:53,884 - BasePage - INFO - 行号：16,内容:['wait','','','1000','','']
+2018-01-22 16:24:54,884 - BasePage - INFO - 行号：17,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:24:55,118 - BasePage - INFO - 行号：18,内容:['wait','','','1000','','']
+2018-01-22 16:24:56,118 - BasePage - INFO - 行号：19,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:24:56,224 - BasePage - INFO - 行号：20,内容:['input','xpath','//*[@id="user-mail"]','1203453332@qq.com','','邮箱']
+2018-01-22 16:24:56,427 - BasePage - INFO - 行号：21,内容:['input','xpath','//*[@id="addUserModal"]/div/div/div[2]/div[3]/div[2]/div[2]/input','1145221555','','账号']
+2018-01-22 16:24:56,592 - BasePage - INFO - 行号：22,内容:['input','xpath','//*[@id="userName"]','hhuu112222','','用户名']
+2018-01-22 16:24:56,756 - BasePage - INFO - 行号：23,内容:['click','xpath','//*[@id='addUserModal']//form/p/label[@title='自动化测试勿用0001']','','','选择组织']
+2018-01-22 16:24:56,859 - BasePage - INFO - 行号：24,内容:['click','xpath','//*[@id='addUserModal']//form/p/label[@title='测试hx2']','','*','选择组织']
+2018-01-22 16:24:56,861 - BasePage - INFO - 行号：25,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:24:56,957 - BasePage - INFO - 行号：26,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','邮箱已经注册','','']
+2018-01-22 16:24:58,119 - BasePage - INFO - 行号：27,内容:['click','xpath','//div[@class='modal-operation']/span[@class='button light']','','','取消']
+2018-01-22 16:24:58,216 - BasePage - INFO - 行号：28,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','hhuu112222','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:24:58,358 - BasePage - INFO - 行号：29,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:24:59,915 - BasePage - INFO - 行号：30,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[3]','1145221555','','']
+2018-01-22 16:25:00,082 - BasePage - INFO - 行号：31,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[4]','hhuu112222','','']
+2018-01-22 16:25:00,193 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:25:00,193 - BasePage - INFO - 行号：32,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[5]','120110222332@qq.com','','']
+2018-01-22 16:25:00,299 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:25:00,299 - BasePage - INFO - 行号：33,内容:['click','cssSelector','div.fuzzy-search-empty > i','','','清空搜索框']
+2018-01-22 16:25:00,387 - BasePage - INFO - 行号：34,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','自动化','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:00,535 - BasePage - INFO - 行号：35,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:00,611 - BasePage - INFO - 行号：36,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[2]','','','启用']
+2018-01-22 16:25:00,723 - BasePage - INFO - 行号：37,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','至少选择一条数据','','']
+2018-01-22 16:25:01,858 - BasePage - INFO - 行号：38,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span','','','']
+2018-01-22 16:25:01,989 - BasePage - INFO - 行号：39,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[2]/td[1]/span','','','']
+2018-01-22 16:25:02,107 - BasePage - INFO - 行号：40,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[3]/td[1]/span','','','']
+2018-01-22 16:25:02,221 - BasePage - INFO - 行号：41,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[2]','','','启用']
+2018-01-22 16:25:02,305 - BasePage - INFO - 行号：42,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','该状态为启用状态，不能启用！','','']
+2018-01-22 16:25:03,415 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:25:03,415 - BasePage - INFO - 行号：43,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span','','','']
+2018-01-22 16:25:03,503 - BasePage - INFO - 行号：44,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[3]/td[1]/span','','','']
+2018-01-22 16:25:03,605 - BasePage - INFO - 行号：45,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[2]','','','启用']
+2018-01-22 16:25:03,693 - BasePage - INFO - 行号：46,内容:['wait','','','1000','','']
+2018-01-22 16:25:04,694 - BasePage - INFO - 行号：47,内容:['click','xpath','//button[@class='btn button light']','','','取消']
+2018-01-22 16:25:04,835 - BasePage - INFO - 行号：48,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[2]','','','启用']
+2018-01-22 16:25:06,341 - BasePage - INFO - 行号：49,内容:['wait','','','1000','','']
+2018-01-22 16:25:07,342 - BasePage - INFO - 行号：50,内容:['click','xpath','/html/body//div/div/div[1]/button[@class='bootbox-close-button close']','','','关闭']
+2018-01-22 16:25:07,492 - BasePage - INFO - 行号：51,内容:['wait','','','1000','','']
+2018-01-22 16:25:08,497 - BasePage - INFO - 行号：52,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[2]','','','启用']
+2018-01-22 16:25:08,638 - BasePage - INFO - 行号：53,内容:['wait','','','1000','','']
+2018-01-22 16:25:09,640 - BasePage - INFO - 行号：54,内容:['click','xpath','//button[@class='btn button default']','','','确定']
+2018-01-22 16:25:09,779 - BasePage - INFO - 行号：55,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span','','','']
+2018-01-22 16:25:11,293 - BasePage - INFO - 行号：56,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','自动化','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:11,427 - BasePage - INFO - 行号：57,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:11,532 - BasePage - INFO - 行号：58,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[3]','','','停用']
+2018-01-22 16:25:11,657 - BasePage - INFO - 行号：59,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','至少选择一条数据','','']
+2018-01-22 16:25:12,799 - BasePage - INFO - 行号：60,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span','','','']
+2018-01-22 16:25:12,940 - BasePage - INFO - 行号：61,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[2]/td[1]/span','','','']
+2018-01-22 16:25:13,040 - BasePage - INFO - 行号：62,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[3]/td[1]/span','','','']
+2018-01-22 16:25:13,141 - BasePage - INFO - 行号：63,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[3]','','','停用']
+2018-01-22 16:25:13,224 - BasePage - INFO - 行号：64,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','该状态为停用状态，不能停用！','','']
+2018-01-22 16:25:14,361 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:25:14,361 - BasePage - INFO - 行号：65,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span','','','']
+2018-01-22 16:25:14,448 - BasePage - INFO - 行号：66,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[3]/td[1]/span','','','']
+2018-01-22 16:25:14,542 - BasePage - INFO - 行号：67,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[3]','','','停用']
+2018-01-22 16:25:14,628 - BasePage - INFO - 行号：68,内容:['wait','','','1000','','']
+2018-01-22 16:25:15,628 - BasePage - INFO - 行号：69,内容:['click','xpath','//button[@class='btn button default']','','','取消']
+2018-01-22 16:25:15,780 - BasePage - INFO - 行号：70,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[3]','','','停用']
+2018-01-22 16:25:17,305 - BasePage - INFO - 行号：71,内容:['wait','','','1000','','']
+2018-01-22 16:25:18,305 - BasePage - INFO - 行号：72,内容:['click','xpath','//button[@class='btn button light']','','','确定']
+2018-01-22 16:25:18,459 - BasePage - INFO - 行号：73,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','hhuu112222','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:18,663 - BasePage - INFO - 行号：74,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:20,141 - BasePage - INFO - 行号：75,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[7]/*[name()='svg'][1]','','','修改']
+2018-01-22 16:25:20,334 - BasePage - INFO - 行号：76,内容:['input','xpath','//*[@id="userName"]','hhuu112222修改111','','']
+2018-01-22 16:25:21,066 - BasePage - INFO - 行号：77,内容:['click','xpath','//div[@class='modal-operation']/span[3]','','','确定']
+2018-01-22 16:25:21,153 - BasePage - INFO - 行号：78,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','hhuu112222修改111','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:21,664 - BasePage - INFO - Had type ' hhuu112222修改111 ' in inputBox
+2018-01-22 16:25:21,664 - BasePage - INFO - 行号：79,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:21,736 - BasePage - INFO - 行号：80,内容:['checkpoint','xpath','//*[@id='table']/table/tbody//td[4][contains(text(),'hhuu112222修改111')]','','','']
+2018-01-22 16:25:21,831 - BasePage - INFO - 行号：81,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','shy1007','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:21,917 - BasePage - INFO - 行号：82,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:21,980 - BasePage - INFO - 行号：83,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[7]/*[name()='svg'][2]','','','启用']
+2018-01-22 16:25:22,130 - BasePage - INFO - 行号：84,内容:['wait','','','1000','','']
+2018-01-22 16:25:23,131 - BasePage - INFO - 行号：85,内容:['click','xpath','//button[@class='btn button default']','','','确定']
+2018-01-22 16:25:23,263 - BasePage - INFO - 行号：86,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','shy1007','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:23,358 - BasePage - INFO - 行号：87,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:24,815 - BasePage - INFO - 行号：88,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[7]/*[name()='svg'][2]','','','停用']
+2018-01-22 16:25:24,987 - BasePage - INFO - 行号：89,内容:['wait','','','1000','','']
+2018-01-22 16:25:25,989 - BasePage - INFO - 行号：90,内容:['click','xpath','//button[@class='btn button default']','','','确定']
+2018-01-22 16:25:26,115 - BasePage - INFO - 行号：91,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','自动化测试','','请输入关键字，搜索新增加的用户']
+2018-01-22 16:25:26,200 - BasePage - INFO - 行号：92,内容:['click','xpath','//*[@id='content']//span[@class='search-img']','','','搜索图标']
+2018-01-22 16:25:27,628 - BasePage - INFO - 行号：93,内容:['click','xpath','//*[@id='table']/table/tbody/tr[2]/td[7]/*[name()='svg'][3]','','','授权1']
+2018-01-22 16:25:27,789 - BasePage - INFO - 行号：94,内容:['click','xpath','//*[@id="list"]/div[2]/div[1]/label','','','选择组织']
+2018-01-22 16:25:28,532 - BasePage - INFO - 行号：95,内容:['click','xpath','//*[@id="list"]/div[4]/div[1]/label','','','选择组织']
+2018-01-22 16:25:28,648 - BasePage - INFO - 行号：96,内容:['click','xpath','//*[@id='warrantModal']//span[1][text()='授权']','','','授权2']
+2018-01-22 16:25:28,746 - BasePage - INFO - 行号：97,内容:['click','xpath','//*[@id='table']/table/tbody/tr[2]/td[7]/*[name()='svg'][3]','','','授权1']
+2018-01-22 16:25:30,306 - BasePage - INFO - 行号：98,内容:['click','xpath','//a[text()="角色授权"]','','','角色授权']
+2018-01-22 16:25:31,006 - BasePage - INFO - 行号：99,内容:['click','xpath','//*[@id="listR"]/div[3]/div[1]/label','','','选择角色']
+2018-01-22 16:25:31,210 - BasePage - INFO - 行号：100,内容:['click','xpath','//*[@id="listR"]/div[5]/div[1]/label','','','选择角色']
+2018-01-22 16:25:31,311 - BasePage - INFO - 行号：101,内容:['click','xpath','//*[@id='warrantModal']//span[2][text()='授权']','','','授权2']
+2018-01-22 16:25:31,413 - BasePage - INFO - 行号：102,内容:['wait','','','1000','','']
+2018-01-22 16:25:32,414 - BasePage - INFO - 行号：103,内容:['click','xpath','//*[@id='table']/table/tbody/tr[2]/td[7]/*[name()='svg'][3]','','','授权1']
+2018-01-22 16:25:32,562 - BasePage - INFO - 行号：104,内容:['click','xpath','//a[text()="角色授权"]','','','角色授权']
+2018-01-22 16:25:33,286 - BasePage - INFO - 行号：105,内容:['click','xpath','//*[@id="listR"]/div[3]/div[1]/label','','','选择角色']
+2018-01-22 16:25:33,367 - BasePage - INFO - 行号：106,内容:['click','xpath','//*[@id="listR"]/div[5]/div[1]/label','','','选择角色']
+2018-01-22 16:25:34,378 - BasePage - INFO - 行号：107,内容:['click','xpath','//*[@id='warrantModal']//span[2][text()='授权']','','','授权2']
+2018-01-22 16:25:34,483 - BasePage - INFO - 结束回放脚本用户管理
+2018-01-22 16:25:34,483 - BasePage - INFO - 结束回放脚本用户管理
+2018-01-22 16:25:34,483 - BasePage - INFO - 结束回放脚本用户管理
+2018-01-22 16:25:34,483 - BasePage - INFO - 结束回放脚本用户管理
+2018-01-22 16:25:35,293 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:25:38,742 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:25:39,864 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:25:39,871 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:25:44,914 - BasePage - INFO - 开始回放脚本员工管理
+2018-01-22 16:25:44,927 - BasePage - INFO - 行号：1,内容:['wait','','','3000','','']
+2018-01-22 16:25:47,927 - BasePage - INFO - 行号：2,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:25:48,088 - BasePage - INFO - 行号：3,内容:['click','xpath','//*[@id='header']//span[text()='员工管理']','','','员工管理']
+2018-01-22 16:25:48,210 - BasePage - INFO - 行号：4,内容:['wait','','','1000','','']
+2018-01-22 16:25:49,210 - BasePage - INFO - 行号：5,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','测试修改','','输入用户名']
+2018-01-22 16:25:49,434 - BasePage - INFO - 行号：6,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','搜索文字']
+2018-01-22 16:25:49,604 - BasePage - INFO - 行号：7,内容:['checkpoint','xpath','//*[@id='table']/table/tbody//td[3][contains(text(),'测试修改')]','','','']
+2018-01-22 16:25:49,753 - BasePage - INFO - 行号：8,内容:['click','xpath','//div[@class='fuzzy-search-empty']','','','清空']
+2018-01-22 16:25:49,842 - BasePage - INFO - 行号：9,内容:['wait','','','2000','','']
+2018-01-22 16:25:51,842 - BasePage - INFO - 行号：10,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[1]','','','邀请']
+2018-01-22 16:25:52,013 - BasePage - INFO - 行号：11,内容:['wait','','','1000','','']
+2018-01-22 16:25:53,013 - BasePage - INFO - 行号：12,内容:['click','xpath','//div[@class='modal-operation']/span[@class='button light']','','','取消']
+2018-01-22 16:25:53,154 - BasePage - INFO - 行号：13,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[1]','','','邀请']
+2018-01-22 16:25:54,677 - BasePage - INFO - 行号：14,内容:['wait','','','1000','','']
+2018-01-22 16:25:55,677 - BasePage - INFO - 行号：15,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:25:55,842 - BasePage - INFO - 行号：16,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','请输入邀请邮箱','','']
+2018-01-22 16:25:56,960 - BasePage - INFO - 行号：17,内容:['click','xpath','//*[@id='inviteEmployee']//span[@class='select2-selection__rendered']','','','选择受票组织']
+2018-01-22 16:25:57,121 - BasePage - INFO - 行号：18,内容:['click','xpath','//ul[@class='select2-results__options']/li[text()='自动化测试勿用0001']','','','选择受票组织']
+2018-01-22 16:25:57,223 - BasePage - INFO - 行号：19,内容:['input','xpath','//*[@id='inviteEmployee']//div[@class='custom-textarea-input-wrap']/input','huhaixiang@yonyou.com','','邮箱']
+2018-01-22 16:25:57,467 - BasePage - INFO - 行号：20,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:25:57,529 - BasePage - INFO - 行号：21,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','邮件邀请已发送','','']
+2018-01-22 16:25:58,663 - BasePage - INFO - 行号：22,内容:['wait','','','1000','','']
+2018-01-22 16:25:59,664 - BasePage - INFO - 行号：23,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','自动化','','输入用户名']
+2018-01-22 16:25:59,865 - BasePage - INFO - 行号：24,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','搜索文字']
+2018-01-22 16:25:59,948 - BasePage - INFO - 行号：25,内容:['click','xpath','//*[@id='content']//div[@class='operation-content shadow']/div[2]','','','审核']
+2018-01-22 16:26:00,040 - BasePage - INFO - 行号：26,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','至少选择一条数据','','']
+2018-01-22 16:26:01,184 - BasePage - INFO - 行号：27,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span/label','','','选择需要审核数据']
+2018-01-22 16:26:01,319 - BasePage - INFO - 行号：28,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[2]/td[1]/span/label','','','选择需要审核数据']
+2018-01-22 16:26:12,187 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:371)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:476)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at sun.reflect.GeneratedMethodAccessor9.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:104)
+    at com.sun.proxy.$Proxy6.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:33)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:26:23,430 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:371)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:476)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at sun.reflect.GeneratedMethodAccessor9.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:104)
+    at com.sun.proxy.$Proxy6.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:33)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:26:24,325 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:26:27,997 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:26:29,118 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:26:29,130 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:26:34,151 - BasePage - INFO - 开始回放脚本商品档案
+2018-01-22 16:26:34,178 - BasePage - INFO - 行号：1,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:26:34,299 - BasePage - INFO - 行号：2,内容:['click','xpath','//*[@id='header']//span[text()='商品档案']','','','商品档案']
+2018-01-22 16:26:34,578 - BasePage - INFO - 行号：3,内容:['click','xpath','//*[@id='content']//span[@class='marRoot active-marRoot']','','','商品分类']
+2018-01-22 16:26:35,640 - BasePage - INFO - 行号：4,内容:['click','xpath','//*[@id='content']//div[@class='material-opera shadow']/div[3]','','','加号图标']
+2018-01-22 16:26:35,816 - BasePage - INFO - 行号：5,内容:['click','xpath','//*[@id='addMarclassModal']//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:26:36,484 - BasePage - INFO - 行号：6,内容:['checkpoint','cssSelector','#className_addMarclass+span','请输入8个汉字,或16位英文/数字','','检验不输入数据时的提示']
+2018-01-22 16:26:36,582 - BasePage - INFO - 行号：7,内容:['input','xpath','//*[@id='className_addMarclass']','日用百货','','名称']
+2018-01-22 16:26:36,713 - BasePage - INFO - 行号：8,内容:['click','xpath','//*[@id='addMarclassModal']//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:26:36,779 - BasePage - INFO - 行号：9,内容:['wait','','','1000','','']
+2018-01-22 16:26:37,779 - BasePage - INFO - 行号：10,内容:['click','xpath','//*[@id='content']//div[@class='material-opera shadow']/div[2]','','','修改']
+2018-01-22 16:26:37,933 - BasePage - INFO - 行号：11,内容:['input','xpath','//*[@id='className_addMarclass']','超市日用百货','','名称']
+2018-01-22 16:26:38,690 - BasePage - INFO - 行号：12,内容:['click','xpath','//div[@class='modal-operation']/span[1]','','','取消']
+2018-01-22 16:26:38,798 - BasePage - INFO - 行号：13,内容:['click','xpath','//*[@id='content']//div[@class='material-opera shadow']/div[2]','','','修改']
+2018-01-22 16:26:40,345 - BasePage - INFO - 行号：14,内容:['input','xpath','//*[@id='className_addMarclass']','超市日用百货','','名称']
+2018-01-22 16:26:41,068 - BasePage - INFO - 行号：15,内容:['click','xpath','//*[@id='addMarclassModal']//button[@class='close']','','','关闭']
+2018-01-22 16:26:41,155 - BasePage - INFO - 行号：16,内容:['click','xpath','//*[@id='content']//div[@class='material-opera shadow']/div[2]','','','修改']
+2018-01-22 16:26:42,667 - BasePage - INFO - 行号：17,内容:['input','xpath','//*[@id='className_addMarclass']','超市日用百货','','名称']
+2018-01-22 16:26:43,380 - BasePage - INFO - 行号：18,内容:['click','xpath','//div[@class='modal-operation']/span[3]','','','确定']
+2018-01-22 16:26:43,470 - BasePage - INFO - 行号：19,内容:['wait','','','1000','','']
+2018-01-22 16:26:44,470 - BasePage - INFO - 行号：20,内容:['','','测试新增商品档案输入数据时的错误提示','','*','']
+2018-01-22 16:26:44,470 - BasePage - INFO - 行号：21,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:26:44,621 - BasePage - INFO - 行号：22,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:26:45,290 - BasePage - INFO - 行号：23,内容:['checkpoint','xpath','//div[@class='modal fade fp-bs-modal in']//div[@class='addGoods-Container']/div[1]/div[@class='groups-text']/span[1]','请填写商品名称','','']
+2018-01-22 16:26:46,423 - BasePage - INFO - 行号：24,内容:['checkpoint','xpath','//div[@class='addGoods-Container']/div[3]//span[@class='valid-error']','请填写税收分类编码','','']
+2018-01-22 16:26:47,562 - BasePage - INFO - 行号：25,内容:['input','xpath','//*[@id='className']','音响','','商品名称']
+2018-01-22 16:26:47,677 - BasePage - INFO - 行号：26,内容:['click','xpath','//div[@class='modal fade fp-bs-modal in']//a[@class='materialCode taxTypeBtn']','','','税收分类编码']
+2018-01-22 16:26:47,783 - BasePage - INFO - 行号：27,内容:['','','测试税收分类编码的搜索框','','*','']
+2018-01-22 16:26:47,785 - BasePage - INFO - 行号：28,内容:['input','xpath','//*[@id='taxClassCodeModal']//input[@class='advanedFocus j-fuzzy-input-tax']','研发服务','','请输入货物和劳务名称']
+2018-01-22 16:26:48,519 - BasePage - INFO - 行号：29,内容:['click','xpath','//*[@id='taxClassCodeModal']//div[@class='fuzzy-advance']','','','点击搜索按钮']
+2018-01-22 16:26:48,614 - BasePage - INFO - 行号：30,内容:['checkpoint','xpath','//*[@id='table1']/table/tbody/tr/td[3][contains(text(),'研发服务')]','','','']
+2018-01-22 16:26:48,707 - BasePage - INFO - 行号：31,内容:['input','xpath','//*[@id='taxClassCodeModal']//input[@class='advanedFocus j-fuzzy-input-tax']','新技术','','请输入说明']
+2018-01-22 16:26:48,796 - BasePage - INFO - 行号：32,内容:['click','xpath','//*[@id='taxClassCodeModal']//div[@class='fuzzy-advance']','','','点击搜索按钮']
+2018-01-22 16:26:48,865 - BasePage - INFO - 行号：33,内容:['checkpoint','xpath','//*[@id='table1']/table/tbody/tr/td[5][contains(text(),'新技术')]','','','']
+2018-01-22 16:26:49,005 - BasePage - INFO - 行号：34,内容:['input','xpath','//*[@id='taxClassCodeModal']//input[@class='advanedFocus j-fuzzy-input-tax']','研发','','请输入关键字']
+2018-01-22 16:26:49,154 - BasePage - INFO - 行号：35,内容:['click','xpath','//*[@id='taxClassCodeModal']//div[@class='fuzzy-advance']','','','点击搜索按钮']
+2018-01-22 16:26:49,227 - BasePage - INFO - 行号：36,内容:['checkpoint','xpath','//*[@id="table1"]/table/tbody/tr[1]/td[4][contains(text(),'研发')]','','','']
+2018-01-22 16:26:49,328 - BasePage - INFO - 行号：37,内容:['','','搜索测试完毕，开始测试左边点击','','*','']
+2018-01-22 16:26:49,329 - BasePage - INFO - 行号：38,内容:['click','xpath','//*[@id='tree-taxCode']/ul/li[3]/i','','','展开销售服务']
+2018-01-22 16:26:49,434 - BasePage - INFO - 行号：39,内容:['click','xpath','//*[@id='tree-taxCode']/ul/li[3]/ul/li[4]/i','','','展开现代服务']
+2018-01-22 16:26:49,642 - BasePage - INFO - 行号：40,内容:['click','xpath','//*[@id='tree-taxCode']//a[text()='研发和技术服务']','','','选择研发和技术服务']
+2018-01-22 16:26:49,845 - BasePage - INFO - 行号：41,内容:['click','xpath','//*[@id='table1']//td[text()='研发']','','','选择关键字为研发的一行']
+2018-01-22 16:26:50,048 - BasePage - INFO - 行号：42,内容:['click','xpath','//div[@class='modal-operation tacClassCode-footer']/span[@class='button default']','','','确定']
+2018-01-22 16:26:50,193 - BasePage - INFO - 行号：43,内容:['checkpoint','xpath','//div[@class='modal fade fp-bs-modal in']//input[@data-bind='value: taxclasscode']','3040101000000000000','','']
+2018-01-22 16:26:50,303 - BasePage - INFO - 行号：44,内容:['input','xpath','//*[@id='addGoodsModal']//input[@data-bind='value: dj']','12.0000232','','单价']
+2018-01-22 16:26:50,459 - BasePage - INFO - 行号：45,内容:['select','xpath','//*[@id='addGoodsModal']//select','17%','','选择税率']
+2018-01-22 16:26:50,640 - BasePage - INFO - 行号：46,内容:['input','xpath','//input[@data-bind='value: ggxh']','HH-01','','规格型号']
+2018-01-22 16:26:50,786 - BasePage - INFO - 行号：47,内容:['input','xpath','//input[@data-bind='value: dw']','台','','计量单位']
+2018-01-22 16:26:50,921 - BasePage - INFO - 行号：48,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:26:51,055 - BasePage - INFO - 行号：49,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[2]','音响','','商品名称']
+2018-01-22 16:26:51,322 - BasePage - INFO - 行号：50,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[3]','YX','','简码']
+2018-01-22 16:26:51,438 - BasePage - INFO - 行号：51,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[4]','3040101000000000000','','税收分类编码']
+2018-01-22 16:26:51,538 - BasePage - INFO - 行号：52,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[5]','研发服务','','货物和劳务名称']
+2018-01-22 16:26:51,642 - BasePage - INFO - 行号：53,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[6]','研发和技术服务','','单价']
+2018-01-22 16:26:51,742 - BasePage - INFO - 行号：54,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[7]','12.0000232','','单价']
+2018-01-22 16:26:51,841 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:26:51,841 - BasePage - INFO - 行号：55,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[8]','17%','','选择税率']
+2018-01-22 16:26:51,937 - BasePage - INFO - 行号：56,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[9]','HH-01','','规格型号']
+2018-01-22 16:26:52,036 - BasePage - INFO - 行号：57,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[10]','台','','计量单位']
+2018-01-22 16:26:52,144 - BasePage - INFO - 行号：58,内容:['click','xpath','//div[@class='operation-content shadow']/div[1]','','','新增']
+2018-01-22 16:26:52,246 - BasePage - INFO - 行号：59,内容:['input','xpath','//*[@id='className']','饼干','','商品名称']
+2018-01-22 16:26:52,948 - BasePage - INFO - 行号：60,内容:['click','xpath','//div[@class='modal fade fp-bs-modal in']//a[@class='materialCode smartMatchBtn']','','','智能匹配']
+2018-01-22 16:26:53,043 - BasePage - INFO - 行号：61,内容:['wait','','','1000','','']
+2018-01-22 16:26:54,043 - BasePage - INFO - 行号：62,内容:['click','xpath','//*[@id='smartMatchListModal']//label[@for='check1']','','','税收分类编码，选择第二行']
+2018-01-22 16:26:54,214 - BasePage - INFO - 行号：63,内容:['click','xpath','//*[@id='smartMatchListModal']//label[@for='check0']','','','选择第一行']
+2018-01-22 16:26:54,323 - BasePage - INFO - 行号：64,内容:['click','xpath','//*[@id='smartMatchListModal']//label[@for='check1']','','','选择第二行']
+2018-01-22 16:26:54,408 - BasePage - INFO - 行号：65,内容:['click','xpath','//*[@id='smartMatchListModal']//span[@class='button light']','','','取消']
+2018-01-22 16:26:54,506 - BasePage - INFO - 行号：66,内容:['click','xpath','//div[@class='modal fade fp-bs-modal in']//a[@class='materialCode smartMatchBtn']','','','智能匹配']
+2018-01-22 16:26:56,072 - BasePage - INFO - 行号：67,内容:['click','xpath','//*[@id='smartMatchListModal']//label[@for='check1']','','','税收分类编码，选择第二行']
+2018-01-22 16:26:56,923 - BasePage - INFO - 行号：68,内容:['click','xpath','//*[@id='smartMatchListModal']//button[@class='close']','','','关闭']
+2018-01-22 16:26:57,059 - BasePage - INFO - 行号：69,内容:['click','xpath','//div[@class='modal fade fp-bs-modal in']//a[@class='materialCode smartMatchBtn']','','','智能匹配']
+2018-01-22 16:26:58,598 - BasePage - INFO - 行号：70,内容:['wait','','','1000','','']
+2018-01-22 16:26:59,598 - BasePage - INFO - 行号：71,内容:['click','xpath','//*[@id='smartMatchListModal']//label[@for='check1']','','','税收分类编码，选择第二行']
+2018-01-22 16:26:59,766 - BasePage - INFO - 行号：72,内容:['click','xpath','//*[@id='smartMatchListModal']//span[@class='button default']','','','确定']
+2018-01-22 16:26:59,892 - BasePage - INFO - 行号：73,内容:['input','xpath','//*[@id='addGoodsModal']//input[@data-bind='value: dj']','12','','单价']
+2018-01-22 16:27:00,029 - BasePage - INFO - 行号：74,内容:['select','xpath','//*[@id='addGoodsModal']//select','17%','','选择税率']
+2018-01-22 16:27:00,180 - BasePage - INFO - 行号：75,内容:['input','xpath','//input[@data-bind='value: ggxh']','LL-1','','规格型号']
+2018-01-22 16:27:00,278 - BasePage - INFO - 行号：76,内容:['input','xpath','//input[@data-bind='value: dw']','箱','','计量单位']
+2018-01-22 16:27:00,365 - BasePage - INFO - 行号：77,内容:['click','xpath','//div[@class='modal-operation']/span[2]','','','确定']
+2018-01-22 16:27:00,443 - BasePage - INFO - 行号：78,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','饼干','','']
+2018-01-22 16:27:00,578 - BasePage - INFO - 行号：79,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','按商品名称搜索']
+2018-01-22 16:27:02,132 - BasePage - INFO - 行号：80,内容:['checkpoint','xpath','//*[@id='table']/table/tbody/tr/td[2][text()='饼干']','','','']
+2018-01-22 16:27:02,256 - BasePage - INFO - 行号：81,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-search-empty']/i','','','清空搜索框']
+2018-01-22 16:27:02,377 - BasePage - INFO - 行号：82,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','饼干','','']
+2018-01-22 16:27:02,536 - BasePage - INFO - 行号：83,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','按商品名称搜索']
+2018-01-22 16:27:02,615 - BasePage - INFO - 行号：84,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[11]/*[name()='svg'][1]','','','修改商品信息']
+2018-01-22 16:27:02,801 - BasePage - INFO - 行号：85,内容:['input','xpath','//*[@id='className']','小熊饼干','','商品名称']
+2018-01-22 16:27:03,470 - BasePage - INFO - 行号：86,内容:['click','xpath','//div[@class='modal-operation']/span[3]','','','确定']
+2018-01-22 16:27:03,571 - BasePage - INFO - 行号：87,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','小熊饼干','','']
+2018-01-22 16:27:03,696 - BasePage - INFO - 行号：88,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','按商品名称搜索']
+2018-01-22 16:27:05,186 - BasePage - INFO - 行号：89,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[11]/*[name()='svg'][2]','','','单个商品删除']
+2018-01-22 16:27:05,390 - BasePage - INFO - 行号：90,内容:['click','xpath','//div[@class='modal-footer']/button[text()='取消']','','','取消']
+2018-01-22 16:27:06,130 - BasePage - INFO - 行号：91,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[11]/*[name()='svg'][2]','','','单个商品删除']
+2018-01-22 16:27:07,678 - BasePage - INFO - 行号：92,内容:['click','xpath','//button[@class='bootbox-close-button close']','','','关闭']
+2018-01-22 16:27:08,368 - BasePage - INFO - 行号：93,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[11]/*[name()='svg'][2]','','','单个商品删除']
+2018-01-22 16:27:09,815 - BasePage - INFO - 行号：94,内容:['click','xpath','//div[@class='modal-footer']/button[text()='确定']','','','确定']
+2018-01-22 16:27:10,516 - BasePage - INFO - 行号：95,内容:['click','xpath','//div[@class='operation-content shadow']/div[3]','','','格式导出']
+2018-01-22 16:27:12,155 - BasePage - INFO - 行号：96,内容:['click','xpath','//div[@class='operation-content shadow']/div[4]','','','导入']
+2018-01-22 16:27:12,319 - BasePage - INFO - 行号：97,内容:['mousemove','xpath','//ul[@class='liststyle-Invoice shadow']/li[3]','','','']
+2018-01-22 16:27:12,443 - BasePage - INFO - 行号：98,内容:['click','xpath','//ul[@class='liststyle-Invoice shadow']/li[3]','','','']
+2018-01-22 16:27:12,549 - BasePage - INFO - 行号：99,内容:['input','xpath','//div[@id="filePicker"]/div[2]/input','D:\hhx\iuapselenium3.1\script\导入格式\商品档案\商品档案导入模板.xlsx','','上传发票模板']
+2018-01-22 16:27:22,809 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+
+2018-01-22 16:27:23,641 - BasePage - INFO - Had type ' D:\hhx\iuapselenium3.1\script\导入格式\商品档案\商品档案导入模板.xlsx ' in inputBox
+2018-01-22 16:27:23,642 - BasePage - INFO - 行号：100,内容:['input','xpath','//div[@id="filePicker2"]/div[2]/input','D:\hhx\iuapselenium3.1\script\导入格式\商品档案\商品档案导入模板.xlsx','','上传发票模板']
+2018-01-22 16:27:34,167 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+
+2018-01-22 16:27:34,970 - BasePage - INFO - Had type ' D:\hhx\iuapselenium3.1\script\导入格式\商品档案\商品档案导入模板.xlsx ' in inputBox
+2018-01-22 16:27:34,970 - BasePage - INFO - 行号：101,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','错误: 上传文件不能重复','','']
+2018-01-22 16:27:45,796 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:371)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:476)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at sun.reflect.GeneratedMethodAccessor9.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:104)
+    at com.sun.proxy.$Proxy6.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:33)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:27:57,038 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:371)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:476)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at sun.reflect.GeneratedMethodAccessor9.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:104)
+    at com.sun.proxy.$Proxy6.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:33)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:27:57,038 - BasePage - ERROR - 断言失败，检查点元素不存在，请检查定位方式或定位值，详细信息：Message: 定位方式为xpath,定位值为//div[@class='layui-layer-content']的元素未找到
+
+2018-01-22 16:27:57,039 - BasePage - INFO - 行号：102,内容:['click','xpath','//div[@id="uploader"]//div[text()="开始上传"]','','','开始上传']
+2018-01-22 16:27:57,171 - BasePage - INFO - 行号：103,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:27:57,256 - BasePage - INFO - 行号：104,内容:['click','xpath','//*[@id='header']//span[text()='商品档案']','','','商品档案']
+2018-01-22 16:27:57,361 - BasePage - INFO - 行号：105,内容:['click','xpath','//div[@class='operation-content shadow']/div[4]','','','导入']
+2018-01-22 16:27:57,875 - BasePage - INFO - 行号：106,内容:['mousemove','xpath','//ul[@class='liststyle-Invoice shadow']/li[1]','','','']
+2018-01-22 16:27:57,956 - BasePage - INFO - 行号：107,内容:['click','xpath','//ul[@class='liststyle-Invoice shadow']/li[1]','','','']
+2018-01-22 16:27:58,069 - BasePage - INFO - 行号：108,内容:['input','xpath','//div[@id="filePicker"]/div[2]/input','D:\hhx\iuapselenium3.1\script\导入格式\商品档案\百旺格式001.xml','','上传发票模板']
+2018-01-22 16:28:08,572 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+
+2018-01-22 16:28:09,401 - BasePage - INFO - Had type ' D:\hhx\iuapselenium3.1\script\导入格式\商品档案\百旺格式001.xml ' in inputBox
+2018-01-22 16:28:09,401 - BasePage - INFO - 行号：109,内容:['input','xpath','//div[@id="filePicker2"]/div[2]/input','D:\hhx\iuapselenium3.1\script\导入格式\商品档案\百旺格式001.xml','*','上传发票模板']
+2018-01-22 16:28:09,401 - BasePage - INFO - 行号：110,内容:['click','xpath','//div[@id="uploader"]//div[text()="开始上传"]','','','开始上传']
+2018-01-22 16:28:09,540 - BasePage - INFO - 行号：111,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:28:09,611 - BasePage - INFO - 行号：112,内容:['click','xpath','//*[@id='header']//span[text()='商品档案']','','','商品档案']
+2018-01-22 16:28:09,697 - BasePage - INFO - 行号：113,内容:['click','xpath','//div[@class='operation-content shadow']/div[4]','','','导入']
+2018-01-22 16:28:10,165 - BasePage - INFO - 行号：114,内容:['mousemove','xpath','//ul[@class='liststyle-Invoice shadow']/li[2]','','','']
+2018-01-22 16:28:10,262 - BasePage - INFO - 行号：115,内容:['click','xpath','//ul[@class='liststyle-Invoice shadow']/li[2]','','','']
+2018-01-22 16:28:10,372 - BasePage - INFO - 行号：116,内容:['input','xpath','//div[@id="filePicker"]/div[2]/input','D:\hhx\iuapselenium3.1\script\导入格式\商品档案\航信格式001.txt','','上传发票模板']
+2018-01-22 16:28:20,900 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+
+2018-01-22 16:28:21,686 - BasePage - INFO - Had type ' D:\hhx\iuapselenium3.1\script\导入格式\商品档案\航信格式001.txt ' in inputBox
+2018-01-22 16:28:21,687 - BasePage - INFO - 行号：117,内容:['input','xpath','//div[@id="filePicker2"]/div[2]/input','D:\hhx\iuapselenium3.1\script\导入格式\商品档案\航信格式001.txt','*','上传发票模板']
+2018-01-22 16:28:21,687 - BasePage - INFO - 行号：118,内容:['click','xpath','//div[@id="uploader"]//div[text()="开始上传"]','','','开始上传']
+2018-01-22 16:28:21,773 - BasePage - INFO - 行号：119,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:28:21,848 - BasePage - INFO - 行号：120,内容:['click','xpath','//*[@id='header']//span[text()='商品档案']','','','商品档案']
+2018-01-22 16:28:21,966 - BasePage - INFO - 行号：121,内容:['wait','','','2000','','']
+2018-01-22 16:28:23,967 - BasePage - INFO - 行号：122,内容:['click','xpath','//*[@id='content']//div[@class='search-container-advanced']','','','高级搜索']
+2018-01-22 16:28:24,130 - BasePage - INFO - 行号：123,内容:['input','xpath','//*[@id='content']//input[@placeholder='请输入商品名称']','定制马夹袋33*49.51','','']
+2018-01-22 16:28:24,381 - BasePage - INFO - 行号：124,内容:['input','xpath','//*[@id='content']//input[@placeholder='请输入简码']','','','']
+2018-01-22 16:28:24,502 - BasePage - INFO - 行号：125,内容:['input','xpath','//*[@id='content']//input[@placeholder='请输入税收分类编码']','1060512990000000000','','']
+2018-01-22 16:28:24,759 - BasePage - INFO - 行号：126,内容:['click','xpath','//*[@id="select2-shSelect-container"]','','','']
+2018-01-22 16:28:24,858 - BasePage - INFO - 行号：127,内容:['click','xpath','//*[@id='select2-shSelect-results']/li[2]','','','选择17%']
+2018-01-22 16:28:24,956 - BasePage - INFO - 行号：128,内容:['click','xpath','//div[@class='bottom']/span[@class='button default']','','','确定']
+2018-01-22 16:28:25,052 - BasePage - INFO - 行号：129,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[2]','定制马夹袋33*49.51','','']
+2018-01-22 16:28:25,223 - BasePage - INFO - 行号：130,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[3]','','','']
+2018-01-22 16:28:25,263 - BasePage - INFO - 行号：131,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[4]','1060512990000000000','','']
+2018-01-22 16:28:25,391 - BasePage - INFO - 行号：132,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody/tr/td[7]','17%','','']
+2018-01-22 16:28:25,493 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:28:25,493 - BasePage - INFO - 行号：133,内容:['click','xpath','//*[@id='content']//div[@class='search-container-advanced']','','','高级搜索']
+2018-01-22 16:28:25,555 - BasePage - INFO - 行号：134,内容:['click','xpath','//div[@class='bottom']/span[@class='button light']','','','清空']
+2018-01-22 16:28:26,273 - BasePage - INFO - 行号：135,内容:['click','xpath','//div[@class='bottom']/span[@class='button default']','','','确定']
+2018-01-22 16:28:26,375 - BasePage - INFO - 行号：136,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','石灰','','']
+2018-01-22 16:28:26,582 - BasePage - INFO - 行号：137,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','按商品名称搜索']
+2018-01-22 16:28:28,142 - BasePage - INFO - 行号：138,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span/label[1]','','','选择第一行']
+2018-01-22 16:28:28,322 - BasePage - INFO - 行号：139,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[2]/td[1]/span/label[1]','','','选择第二行']
+2018-01-22 16:28:28,437 - BasePage - INFO - 行号：140,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[3]/td[1]/span/label[1]','','','选择第三行']
+2018-01-22 16:28:28,552 - BasePage - INFO - 行号：141,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[4]/td[1]/span/label[1]','','','选择第四行']
+2018-01-22 16:28:28,651 - BasePage - INFO - 行号：142,内容:['click','xpath','//div[@class='operation-content shadow']/div[5]','','','删除']
+2018-01-22 16:28:28,773 - BasePage - INFO - 行号：143,内容:['click','xpath','//div[@class='modal-footer']/button[@class='btn button default']','','','取消']
+2018-01-22 16:28:29,463 - BasePage - INFO - 行号：144,内容:['click','xpath','//div[@class='operation-content shadow']/div[5]','','','删除']
+2018-01-22 16:28:30,983 - BasePage - INFO - 行号：145,内容:['click','xpath','//div[@class='modal-body']/button[@class='bootbox-close-button close']','','','关闭']
+2018-01-22 16:28:31,709 - BasePage - INFO - 行号：146,内容:['click','xpath','//div[@class='operation-content shadow']/div[5]','','','删除']
+2018-01-22 16:28:33,220 - BasePage - INFO - 行号：147,内容:['click','xpath','//div[@class='modal-footer']/button[@class='btn button light']','','','确定']
+2018-01-22 16:28:33,910 - BasePage - INFO - 行号：148,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','0815美达24X','','']
+2018-01-22 16:28:34,174 - BasePage - INFO - 行号：149,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','按商品名称搜索']
+2018-01-22 16:28:34,282 - BasePage - INFO - 行号：150,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span/label[1]','','','选择第一行']
+2018-01-22 16:28:34,427 - BasePage - INFO - 行号：151,内容:['click','xpath','//div[@class='operation-content shadow']/div[5]','','','删除所导入的商品']
+2018-01-22 16:28:34,503 - BasePage - INFO - 行号：152,内容:['click','xpath','//button[@class='btn button light']','','','确定']
+2018-01-22 16:28:35,224 - BasePage - INFO - 行号：153,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','定制马夹袋','','']
+2018-01-22 16:28:35,443 - BasePage - INFO - 行号：154,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','按商品名称搜索']
+2018-01-22 16:28:36,986 - BasePage - INFO - 行号：155,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span/label[1]','','','选择第一行']
+2018-01-22 16:28:37,144 - BasePage - INFO - 行号：156,内容:['click','xpath','//div[@class='operation-content shadow']/div[5]','','','删除所导入的商品']
+2018-01-22 16:28:37,221 - BasePage - INFO - 行号：157,内容:['click','xpath','//button[@class='btn button light']','','','确定']
+2018-01-22 16:28:37,884 - BasePage - INFO - 行号：158,内容:['click','xpath','//*[@id='tree-material']//a[text()='超市日用百货']','','','选中要删除的新建的商品档案（删除图标）']
+2018-01-22 16:28:39,519 - BasePage - INFO - 行号：159,内容:['click','xpath','//*[@id='content']//div[@class='material-opera shadow']/div[1]','','','删除新建的商品档案（删除图标）']
+2018-01-22 16:28:39,644 - BasePage - INFO - 行号：160,内容:['','','','删除新增商品分类  超市日用百货','*','']
+2018-01-22 16:28:39,644 - BasePage - INFO - 行号：161,内容:['click','xpath','//*[@id="content"]/div[1]/div[1]/div[1]/img[1]','','*','']
+2018-01-22 16:28:39,645 - BasePage - INFO - 行号：162,内容:['click','xpath','//button[@data-bb-handler='confirm']','','','确定删除']
+2018-01-22 16:28:40,319 - BasePage - INFO - 结束回放脚本商品档案
+2018-01-22 16:28:40,319 - BasePage - INFO - 结束回放脚本商品档案
+2018-01-22 16:28:40,319 - BasePage - INFO - 结束回放脚本商品档案
+2018-01-22 16:28:40,319 - BasePage - INFO - 结束回放脚本商品档案
+2018-01-22 16:28:41,117 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:28:44,382 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:28:45,509 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:28:45,517 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:28:50,569 - BasePage - INFO - 开始回放脚本客户档案
+2018-01-22 16:28:50,575 - BasePage - INFO - 行号：1,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:28:51,209 - BasePage - INFO - 行号：2,内容:['click','xpath','//*[@id='header']//span[text()='客户档案']','','','客户档案']
+2018-01-22 16:28:51,553 - BasePage - INFO - 行号：3,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','自动哈哈哈化测叭叭叭试嚓嚓嚓客户名称','','输入该企业下不存在的客户进行查询']
+2018-01-22 16:28:52,174 - BasePage - INFO - 行号：4,内容:['key','','','Enter','','搜索文字']
+2018-01-22 16:28:52,372 - BasePage - INFO - Had key ' Enter ' clicked
+2018-01-22 16:28:52,372 - BasePage - INFO - 行号：5,内容:['checkpoint','xpath','//p[@class='no-data-text']','未搜索到数据','','']
+2018-01-22 16:28:54,036 - BasePage - INFO - 结束回放脚本客户档案
+2018-01-22 16:28:54,036 - BasePage - INFO - 结束回放脚本客户档案
+2018-01-22 16:28:54,036 - BasePage - INFO - 结束回放脚本客户档案
+2018-01-22 16:28:54,036 - BasePage - INFO - 结束回放脚本客户档案
+2018-01-22 16:28:54,917 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:28:58,338 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:28:59,460 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:28:59,469 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:29:04,526 - BasePage - INFO - 开始回放脚本税控盘管理
+2018-01-22 16:29:04,533 - BasePage - INFO - 行号：1,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:29:04,631 - BasePage - INFO - 行号：2,内容:['click','xpath','//*[@id='header']//span[text()='税控盘管理']','','','税盘管理']
+2018-01-22 16:29:04,736 - BasePage - INFO - 行号：3,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','3848','','1.输入税控设备编号']
+2018-01-22 16:29:05,846 - BasePage - INFO - 行号：4,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','点击搜索图标']
+2018-01-22 16:29:05,960 - BasePage - INFO - 行号：5,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody//td[2]','3848','','查看税控设备编号搜索结果']
+2018-01-22 16:29:07,114 - BasePage - INFO - 行号：6,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-search-empty']/i','','','清除本次搜索条件']
+2018-01-22 16:29:07,243 - BasePage - INFO - 行号：7,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','纸普','','2.输入税控设备名称']
+2018-01-22 16:29:07,378 - BasePage - INFO - 行号：8,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','点击搜索图标']
+2018-01-22 16:29:07,463 - BasePage - INFO - 行号：9,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody//td[3]','纸普','','查看税控设备名称搜索结果']
+2018-01-22 16:29:08,648 - BasePage - INFO - 行号：10,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-search-empty']/i','','','清除本次搜索条件']
+2018-01-22 16:29:08,760 - BasePage - INFO - 行号：11,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','111222333456333','','3.输入纳税人识别号']
+2018-01-22 16:29:08,944 - BasePage - INFO - 行号：12,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','点击搜索图标']
+2018-01-22 16:29:09,042 - BasePage - INFO - 行号：13,内容:['checkpoint','xpath','//*[@id="table"]/table/tbody//td[1]','111222333456333','','查看纳税人识别号搜索结果']
+2018-01-22 16:29:10,236 - BasePage - INFO - 行号：14,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-search-empty']/i','','','清除本次搜索条件']
+2018-01-22 16:29:10,332 - BasePage - INFO - 行号：15,内容:['','','增值税普通发票不具备领购功能，校验操作处只有查看和查看开票点图标','','*','']
+2018-01-22 16:29:10,334 - BasePage - INFO - 行号：16,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','增值税普通发票','','输入税控设备名称']
+2018-01-22 16:29:10,496 - BasePage - INFO - 行号：17,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','点击搜索图标']
+2018-01-22 16:29:10,584 - BasePage - INFO - 行号：18,内容:['checkpoint','xpath','//*[@id='table']/table/tbody/tr[1]/td[9]/*[name()='svg'][1][@data-original-title='查看详情']','','','']
+2018-01-22 16:29:10,676 - BasePage - INFO - 行号：19,内容:['checkpoint','xpath','//*[@id='table']/table/tbody/tr[1]/td[9]/*[name()='svg'][3][@data-original-title='查看开票点']','','','']
+2018-01-22 16:29:10,713 - BasePage - INFO - 行号：20,内容:['input','xpath','//*[@id='content']//input[@class='advanedFocus j-fuzzy-input']','增值税电子普通发票','','输入税控设备名称']
+2018-01-22 16:29:10,808 - BasePage - INFO - 行号：21,内容:['click','xpath','//*[@id='content']//div[@class='fuzzy-btn']','','','点击搜索图标']
+2018-01-22 16:29:10,868 - BasePage - INFO - 行号：22,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[9]/*[name()='svg'][1]','','','4.点击查看详情']
+2018-01-22 16:29:11,023 - BasePage - INFO - 行号：23,内容:['checkpoint','xpath','//*[@id='taxMechModal']//div[@class='modal-body']','','','校验详情页面出现']
+2018-01-22 16:29:11,641 - BasePage - INFO - 行号：24,内容:['click','xpath','//*[@id='taxMechModal']//span[@class='button default']','','','关闭查看']
+2018-01-22 16:29:11,770 - BasePage - INFO - 行号：25,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[9]/*[name()='svg'][2]','','','5.点击领购']
+2018-01-22 16:29:13,301 - BasePage - INFO - 行号：26,内容:['click','xpath','//*[@id='increaseNumModal']//span[@class='button light']','','','取消领购']
+2018-01-22 16:29:14,019 - BasePage - INFO - 行号：27,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[9]/*[name()='svg'][2]','','','5.点击领购']
+2018-01-22 16:29:15,512 - BasePage - INFO - 行号：28,内容:['input','xpath','//*[@id='increaseNumModal']//input[@title='请输入领购数量']','100','','输入本次领购数量']
+2018-01-22 16:29:16,236 - BasePage - INFO - 行号：29,内容:['click','xpath','//*[@id='increaseNumModal']//span[@class='button default']','','','确认领购']
+2018-01-22 16:29:16,328 - BasePage - INFO - 行号：30,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','查看领购结果']
+2018-01-22 16:29:17,484 - BasePage - INFO - 行号：31,内容:['click','xpath','//*[@id='table']/table/tbody/tr[1]/td[9]/*[name()='svg'][3]','','','6.查看开票点']
+2018-01-22 16:29:17,598 - BasePage - INFO - 行号：32,内容:['click','xpath','//*[@id='viewSiteModal']//span[@class='button default']','','','关闭开票点']
+2018-01-22 16:29:18,289 - BasePage - INFO - 行号：33,内容:['click','xpath','//*[@id='content']//div[@class='load-num']','','','7.单次加载50条']
+2018-01-22 16:29:19,831 - BasePage - INFO - 行号：34,内容:['checkpoint','xpath','//*[@id='content']//div[@class='loadedNum']/span[1]','','','查看单次加载50']
+2018-01-22 16:29:19,881 - BasePage - INFO - 行号：35,内容:['click','xpath','//*[@id='content']//div[@class='load-num load-num-last']','','','单次加载100条']
+2018-01-22 16:29:19,984 - BasePage - INFO - 行号：36,内容:['checkpoint','xpath','//*[@id='content']//div[@class='loadedNum']/span[1]','','','查看单次加载100']
+2018-01-22 16:29:20,019 - BasePage - INFO - 行号：37,内容:['input','xpath','//*[@id="single-load-num"]','20','','设置单次加载20条']
+2018-01-22 16:29:20,128 - BasePage - INFO - 行号：38,内容:['key','','','Enter','','确定']
+2018-01-22 16:29:20,186 - BasePage - INFO - Had key ' Enter ' clicked
+2018-01-22 16:29:20,187 - BasePage - INFO - 行号：39,内容:['checkpoint','xpath','//*[@id='content']//div[@class='loadedNum']/span[1]','20','','查看单次加载20条']
+2018-01-22 16:29:21,328 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:29:21,328 - BasePage - INFO - 结束回放脚本税控盘管理
+2018-01-22 16:29:21,329 - BasePage - INFO - 结束回放脚本税控盘管理
+2018-01-22 16:29:21,329 - BasePage - INFO - 结束回放脚本税控盘管理
+2018-01-22 16:29:21,329 - BasePage - INFO - 结束回放脚本税控盘管理
+2018-01-22 16:29:22,243 - BrowserEngine - INFO - The test server url is: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:29:25,721 - BrowserEngine - INFO - Open url: https://fapiao.yonyoucloud.com/cas/login?service=https%3A%2F%2Ffapiao.yonyoucloud.com%2Finvoiceclient-web%2Fcas
+2018-01-22 16:29:26,842 - BrowserEngine - INFO - Maximize the current window.
+2018-01-22 16:29:26,851 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-01-22 16:29:31,950 - BasePage - INFO - 开始回放脚本参数设置
+2018-01-22 16:29:31,971 - BasePage - INFO - 行号：1,内容:['mousemove','xpath','//*[@id='header']//span[text()='应用设置']','','','应用设置']
+2018-01-22 16:29:32,592 - BasePage - INFO - 行号：2,内容:['click','xpath','//*[@id='header']//span[text()='参数设置']','','','参数设置']
+2018-01-22 16:29:32,917 - BasePage - INFO - 行号：3,内容:['wait','','','2000','','']
+2018-01-22 16:29:34,918 - BasePage - INFO - 行号：4,内容:['click','xpath','//*[@id='content']//div[@class='user-set-body shadow']//div[1]//div[@class='operation-icon']','','','1.修改开启短信推送功能']
+2018-01-22 16:29:35,109 - BasePage - INFO - 行号：5,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:29:35,240 - BasePage - INFO - 行号：6,内容:['click','xpath','//*[@id='content']//div[@class='user-set-body shadow']//div[1]//div[@class='operation-icon']','','','修改开启短信推送功能']
+2018-01-22 16:29:35,321 - BasePage - INFO - 行号：7,内容:['click','xpath','//*[@id='content']//label[@for='msg2']','','','选择停用']
+2018-01-22 16:29:35,421 - BasePage - INFO - 行号：8,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:35,520 - BasePage - INFO - 行号：9,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功','','查看保存结果']
+2018-01-22 16:29:36,713 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:29:36,713 - BasePage - INFO - 行号：10,内容:['checkpoint','xpath','//*[@id='content']//div[@class='user-set-groups first-user-set-groups']//span[@class='account']','已停用','','']
+2018-01-22 16:29:37,835 - BasePage - INFO - 行号：11,内容:['click','xpath','//*[@id='content']//div[@class='user-set-body shadow']//div[1]//div[@class='operation-icon']','','','修改开启短信推送功能']
+2018-01-22 16:29:37,905 - BasePage - INFO - 行号：12,内容:['click','xpath','//*[@id='content']//label[@for='msg1']','','','启用']
+2018-01-22 16:29:38,025 - BasePage - INFO - 行号：13,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:38,125 - BasePage - INFO - 行号：14,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功','','查看保存结果']
+2018-01-22 16:29:39,243 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:29:39,244 - BasePage - INFO - 行号：15,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[1]//span[@class='account']','已启用','','']
+2018-01-22 16:29:40,401 - BasePage - INFO - 行号：16,内容:['click','xpath','//*[@id='content']//div[@class='user-set-body shadow']//div[2]//div[@class='operation-icon']','','*','2.修改默认税率']
+2018-01-22 16:29:40,401 - BasePage - INFO - 行号：17,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','*','取消']
+2018-01-22 16:29:40,403 - BasePage - INFO - 行号：18,内容:['click','xpath','//*[@id='content']//div[@class='user-set-body shadow']//div[2]//div[@class='operation-icon']','','*','修改默认税率']
+2018-01-22 16:29:40,403 - BasePage - INFO - 行号：19,内容:['click','xpath','//*[@id='content']//label[@for='tax2']','','*','选择不支持编辑']
+2018-01-22 16:29:40,403 - BasePage - INFO - 行号：20,内容:['click','xpath','//*[@id="select2-invoiceTax-container"]','','*','']
+2018-01-22 16:29:40,403 - BasePage - INFO - 行号：21,内容:['click','xpath','//*[@id='select2-invoiceTax-results']/li[2]','','*','选择11%']
+2018-01-22 16:29:40,403 - BasePage - INFO - 行号：22,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','*','保存']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：23,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','*','查看保存结果']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：24,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[2]//span[@class='account']','不支持编辑','*','']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：25,内容:['click','xpath','//*[@id='content']//div[@class='user-set-body shadow']//div[2]//div[@class='operation-icon']','','*','修改默认税率']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：26,内容:['click','xpath','//*[@id='content']//label[@for='tax1']','','*','选择支持编辑']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：27,内容:['click','xpath','//*[@id="select2-invoiceTax-container"]','','*','']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：28,内容:['click','xpath','//*[@id='select2-invoiceTax-results']/li[5]','','*','选择6%']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：29,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','*','保存']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：30,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','*','查看保存结果']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：31,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[2]//span[@class='account']','支持编辑','*','']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：32,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[3]//div[@class='operation-icon']','','*','3.修改默认开票项目']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：33,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[3]//span[@class='button light']','','*','取消']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：34,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[3]//div[@class='operation-icon']','','*','修改默认开票项目']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：35,内容:['click','xpath','//*[@id='content']//label[@for='item2']','','*','选择不支持编辑']
+2018-01-22 16:29:40,404 - BasePage - INFO - 行号：36,内容:['click','xpath','//*[@id="default-item"]','','*','打开商品分类弹框']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：37,内容:['click','xpath','//*[@id='materialModalContent']//div[@class='modal-operation handInvoiceBtn-opera']/span','','*','确定']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：38,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','请选择默认开票项目','*','']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：39,内容:['click','xpath','//*[@id="table"]/table/tbody/tr[1]/td[1]/span/label[2]','','*','选择第一个']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：40,内容:['click','xpath','//*[@id='materialModalContent']//div[@class='modal-operation handInvoiceBtn-opera']/span','','*','确定']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：41,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','*','保存']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：42,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','*','查看保存结果']
+2018-01-22 16:29:40,405 - BasePage - INFO - 行号：43,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[3]//span[@class='account']','不支持编辑','*','查看保存结果']
+2018-01-22 16:29:40,407 - BasePage - INFO - 行号：44,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[3]//div[@class='operation-icon']','','*','修改默认开票项目']
+2018-01-22 16:29:40,407 - BasePage - INFO - 行号：45,内容:['click','xpath','//*[@id='content']//label[@for='item1']','','*','选择支持编辑']
+2018-01-22 16:29:40,407 - BasePage - INFO - 行号：46,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','*','保存']
+2018-01-22 16:29:40,407 - BasePage - INFO - 行号：47,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','支持编辑','*','查看保存结果']
+2018-01-22 16:29:40,407 - BasePage - INFO - 行号：48,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[3]//span[@class='account']','','*','']
+2018-01-22 16:29:40,407 - BasePage - INFO - 行号：49,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[4]//div[@class='operation-icon']','','','4.修改公司logo']
+2018-01-22 16:29:40,559 - BasePage - INFO - 行号：50,内容:['input','xpath','//input[@name='file']','D:\图片\111.jpg','','上传公司logo']
+2018-01-22 16:29:40,719 - BasePage - INFO - 行号：51,内容:['input','cssSelector','#corp-logo+div>input','修改后的公司logo','','输入公司名称']
+2018-01-22 16:29:40,877 - BasePage - INFO - 行号：52,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:40,964 - BasePage - INFO - 行号：53,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','保存成功，可发送测试邮件查看邮件模板','','']
+2018-01-22 16:29:41,308 - BasePage - ERROR - 断言失败，检查点元素不存在，请检查定位方式或定位值，详细信息：Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=63.0.3239.108)
+  (Driver info: chromedriver=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'UF201502001', ip: '192.168.239.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir4816_1617}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=63.0.3239.108, platform=WIN8_1, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: edbced8daedd18d284e3fa35cfe1402e
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebElement.execute (RemoteWebElement.java:274)
+    at org.openqa.selenium.remote.RemoteWebElement.getText (RemoteWebElement.java:158)
+    at sun.reflect.GeneratedMethodAccessor25.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke (EventFiringWebDriver.java:332)
+    at com.sun.proxy.$Proxy7.getText (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText (EventFiringWebDriver.java:382)
+    at sun.reflect.GeneratedMethodAccessor25.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.remote.server.KnownElements$1.invoke (KnownElements.java:64)
+    at com.sun.proxy.$Proxy8.getText (None:-1)
+    at org.openqa.selenium.remote.server.handler.GetElementText.call (GetElementText.java:30)
+    at org.openqa.selenium.remote.server.handler.GetElementText.call (GetElementText.java:22)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:29:41,309 - BasePage - INFO - 行号：54,内容:['click','cssSelector','#corp-logo+div+div+div>span','','','点击这里发送测试邮件']
+2018-01-22 16:29:41,447 - BasePage - INFO - 行号：55,内容:['click','xpath','//*[@id='mailModal']//span[@class='button default']','','','确定']
+2018-01-22 16:29:42,153 - BasePage - INFO - 行号：56,内容:['checkpoint','xpath','//*[@id='valid-error-email']','请输入邮箱','','']
+2018-01-22 16:29:43,256 - BasePage - INFO - 行号：57,内容:['input','xpath','//*[@id="corpmail"]','huhaixiang@yonyou.com','','输入邮箱地址']
+2018-01-22 16:29:43,474 - BasePage - INFO - 行号：58,内容:['click','xpath','//*[@id='mailModal']//span[@class='button default']','','','确定']
+2018-01-22 16:29:43,549 - BasePage - INFO - 行号：59,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','发送成功','','']
+2018-01-22 16:29:44,881 - BasePage - INFO - 行号：60,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','点击取消收起修改公司logo']
+2018-01-22 16:29:46,417 - BasePage - INFO - 行号：61,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[4]//span[@class='account']','修改后的公司logo','','查看保存结果']
+2018-01-22 16:29:47,602 - BasePage - INFO - 行号：62,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[5]//div[@class='operation-icon']','','','5.修改待勾选专票']
+2018-01-22 16:29:47,740 - BasePage - INFO - 行号：63,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:29:47,841 - BasePage - INFO - 行号：64,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[5]//div[@class='operation-icon']','','','修改待勾选专票']
+2018-01-22 16:29:47,907 - BasePage - INFO - 行号：65,内容:['click','xpath','//*[@id='content']//label[@for='check2']','','','选择仅显示已收到的专票']
+2018-01-22 16:29:47,997 - BasePage - INFO - 行号：66,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:48,092 - BasePage - INFO - 行号：67,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','查看保存结果']
+2018-01-22 16:29:49,325 - BasePage - INFO - 行号：68,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[5]//span[@class='account']','仅显示已收到的专票','','查看保存结果']
+2018-01-22 16:29:50,489 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:29:50,489 - BasePage - INFO - 行号：69,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[5]//div[@class='operation-icon']','','','修改待勾选专票']
+2018-01-22 16:29:50,628 - BasePage - INFO - 行号：70,内容:['click','xpath','//*[@id='content']//label[@for='check1']','','','选择显示全部']
+2018-01-22 16:29:50,743 - BasePage - INFO - 行号：71,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:50,828 - BasePage - INFO - 行号：72,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','查看保存结果']
+2018-01-22 16:29:51,947 - BasePage - INFO - 行号：73,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[5]//span[@class='account']','显示全部','','查看保存结果']
+2018-01-22 16:29:53,099 - BasePage - INFO - 行号：74,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[6]//div[@class='operation-icon']','','','6.修改发票行拆分规则']
+2018-01-22 16:29:53,239 - BasePage - INFO - 行号：75,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:29:53,345 - BasePage - INFO - 行号：76,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[6]//div[@class='operation-icon']','','','修改发票行拆分规则']
+2018-01-22 16:29:53,426 - BasePage - INFO - 行号：77,内容:['click','xpath','//*[@id='content']//label[@for='split1']','','','选择明细行数量取整']
+2018-01-22 16:29:53,519 - BasePage - INFO - 行号：78,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:53,608 - BasePage - INFO - 行号：79,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','查看保存结果']
+2018-01-22 16:29:54,720 - BasePage - INFO - 行号：80,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[6]//span[@class='account']','明细行数量取整','','查看保存结果']
+2018-01-22 16:29:55,862 - BasePage - INFO - 行号：81,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[6]//div[@class='operation-icon']','','','修改发票行拆分规则']
+2018-01-22 16:29:55,974 - BasePage - INFO - 行号：82,内容:['click','xpath','//*[@id='content']//label[@for='split2']','','','选择明细行数量允许有小数']
+2018-01-22 16:29:57,470 - BasePage - INFO - 行号：83,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:29:57,562 - BasePage - INFO - 行号：84,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','查看保存结果']
+2018-01-22 16:29:58,762 - BasePage - INFO - 行号：85,内容:['checkpoint','xpath','//div[@class='user-set animate-fade-in']/div/div[6]//span[@class='account']','明细行数量允许有小数 ','','查看保存结果']
+2018-01-22 16:29:59,930 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:29:59,930 - BasePage - INFO - 行号：86,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[7]//div[@class='operation-icon']','','','7.进项数据同步规则']
+2018-01-22 16:30:00,082 - BasePage - INFO - 行号：87,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:30:00,178 - BasePage - INFO - 行号：88,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[7]//div[@class='operation-icon']','','','进项数据同步规则']
+2018-01-22 16:30:00,260 - BasePage - INFO - 行号：89,内容:['input','cssSelector','div.user-operation-content > input.fetch-input','1','','每隔_1_小时同步一次']
+2018-01-22 16:30:00,368 - BasePage - INFO - 行号：90,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:30:00,459 - BasePage - INFO - 行号：91,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','设置勾选认证取数方式成功','','']
+2018-01-22 16:30:01,591 - BasePage - ERROR - 断言失败，预期值与实际值不一致
+2018-01-22 16:30:01,592 - BasePage - INFO - 行号：92,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[7]//div[@class='operation-icon']','','','进项数据同步规则']
+2018-01-22 16:30:01,667 - BasePage - INFO - 行号：93,内容:['input','cssSelector','div.user-operation-content > input.fetch-input','','','每隔__小时同步一次']
+2018-01-22 16:30:01,757 - BasePage - INFO - 行号：94,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:30:01,849 - BasePage - INFO - 行号：95,内容:['checkpoint','xpath','设置勾选认证取数方式成功','','','']
+2018-01-22 16:30:12,704 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:371)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:476)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at sun.reflect.GeneratedMethodAccessor9.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:104)
+    at com.sun.proxy.$Proxy6.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:33)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:30:23,915 - BasePage - ERROR - 异常原因：元素不存在，请检查定位方式或定位值，详细异常信息Message: 
+Screenshot: available via screen
+Stacktrace:
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance0 (NativeConstructorAccessorImpl.java:-2)
+    at sun.reflect.NativeConstructorAccessorImpl.newInstance (NativeConstructorAccessorImpl.java:62)
+    at sun.reflect.DelegatingConstructorAccessorImpl.newInstance (DelegatingConstructorAccessorImpl.java:45)
+    at java.lang.reflect.Constructor.newInstance (Constructor.java:422)
+    at org.openqa.selenium.remote.ErrorHandler.createThrowable (ErrorHandler.java:216)
+    at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed (ErrorHandler.java:168)
+    at org.openqa.selenium.remote.RemoteWebDriver.execute (RemoteWebDriver.java:638)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:371)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath (RemoteWebDriver.java:476)
+    at org.openqa.selenium.By$ByXPath.findElement (By.java:361)
+    at org.openqa.selenium.remote.RemoteWebDriver.findElement (RemoteWebDriver.java:363)
+    at sun.reflect.GeneratedMethodAccessor9.invoke (None:-1)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:497)
+    at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke (EventFiringWebDriver.java:104)
+    at com.sun.proxy.$Proxy6.findElement (None:-1)
+    at org.openqa.selenium.support.events.EventFiringWebDriver.findElement (EventFiringWebDriver.java:188)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:48)
+    at org.openqa.selenium.remote.server.handler.FindElement.call (FindElement.java:33)
+    at java.util.concurrent.FutureTask.run (FutureTask.java:266)
+    at org.openqa.selenium.remote.server.DefaultSession$1.run (DefaultSession.java:176)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run (Thread.java:745)
+2018-01-22 16:30:23,917 - BasePage - ERROR - 断言失败，检查点元素不存在，请检查定位方式或定位值，详细信息：
+2018-01-22 16:30:23,917 - BasePage - INFO - 行号：96,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[8]//div[@class='operation-icon']','','','8.参照商品档案允许新增']
+2018-01-22 16:30:24,073 - BasePage - INFO - 行号：97,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:30:24,171 - BasePage - INFO - 行号：98,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[8]//div[@class='operation-icon']','','','参照商品档案允许新增']
+2018-01-22 16:30:24,253 - BasePage - INFO - 行号：99,内容:['click','xpath','//*[@id='content']//label[@for='material2']','','','选择  否']
+2018-01-22 16:30:24,342 - BasePage - INFO - 行号：100,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:30:24,437 - BasePage - INFO - 行号：101,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 16:30:25,619 - BasePage - INFO - 行号：102,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:30:25,701 - BasePage - INFO - 行号：103,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[8]//div[@class='operation-icon']','','','参照商品档案允许新增']
+2018-01-22 16:30:25,773 - BasePage - INFO - 行号：104,内容:['click','xpath','//*[@id='content']//label[@for='material1']','','','选择  否']
+2018-01-22 16:30:25,868 - BasePage - INFO - 行号：105,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 16:30:26,994 - BasePage - INFO - 行号：106,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:30:27,101 - BasePage - INFO - 行号：107,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button light']','','','取消']
+2018-01-22 16:30:27,206 - BasePage - INFO - 行号：108,内容:['click','xpath','//div[@class='user-set animate-fade-in']/div/div[9]//div[@class='operation-icon']','','','9.码上开票-小票抬头设置']
+2018-01-22 16:30:27,338 - BasePage - INFO - 行号：109,内容:['input','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//input','二维码开票抬头测试','','']
+2018-01-22 16:30:27,473 - BasePage - INFO - 行号：110,内容:['click','xpath','//*[@id='content']//div[@class='operation-body operation-body-show']//span[@class='button default']','','','保存']
+2018-01-22 16:30:27,569 - BasePage - INFO - 行号：111,内容:['checkpoint','xpath','//div[@class='layui-layer-content']','操作成功','','']
+2018-01-22 16:30:29,591 - BasePage - INFO - 结束回放脚本参数设置
+2018-01-22 16:30:29,591 - BasePage - INFO - 结束回放脚本参数设置
+2018-01-22 16:30:29,591 - BasePage - INFO - 结束回放脚本参数设置
+2018-01-22 16:30:29,591 - BasePage - INFO - 结束回放脚本参数设置
