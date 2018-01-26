@@ -14,8 +14,8 @@ HtmlFile = report_path + "\\" + now + "HTMLtemplate.html"
 fp = file(HtmlFile, "wb")
 
 # 用例路径
-# case_path = os.path.join(os.getcwd(), "testsuites")
-case_path = os.path.join(os.getcwd(), "testdemos")
+case_path = os.path.join(os.getcwd(), "testsuites")
+# case_path = os.path.join(os.getcwd(), "testdemos")
 # case_path = os.path.join(os.getcwd(), "demo")
 
 # 构建suite
